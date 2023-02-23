@@ -33,7 +33,6 @@ Feature: Login Functionalities
   Scenario: User should not be able to login with valid username but no password
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
-  Scenario: User should not be able to login with valid both username and password but no location
 
-    This is version 3
+   # This is version 4
 
