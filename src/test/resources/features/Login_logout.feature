@@ -1,4 +1,4 @@
-Feature: Login Functionalities
+Feature: As an admin, user should be able to login and logout
   Background:
     Given User navigates to the wabpage and user validates the 'title'
   Scenario Outline: Happy Path Login
@@ -6,8 +6,7 @@ Feature: Login Functionalities
     And User chooses location '<location>'
     And User clicks the login button
     Then User validates the header contains text '<user>'
-    And User validates the header contains word '<location>'
-    And User clicks logout
+    And User validates the header contains text '<location>'
     Examples:
       | location          | user  |
       | Inpatient Ward    | admin |
@@ -20,12 +19,14 @@ Feature: Login Functionalities
 
   Scenario: User should not be able to login with valid username but invalid password
     When User enters valid username and invalid password 'blablabla'
-    And User chooses a location 'Inpatient Ward' and clicks the login button
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
     Then User validates the error message
 
   Scenario: User should not be able to login with invalid username but valid password
     When User enters invalid username 'ahmet' and valid password
-    And User chooses a location 'Inpatient Ward' and clicks the login button
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
     Then User validates the error message
 
   Scenario: User should not be able to login with invalid both username and password
@@ -33,6 +34,8 @@ Feature: Login Functionalities
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
   Scenario: User should not be able to login with valid both username and password but no location
+  Scenario: User should not be able to logout
 
-   # This is version 4
+
+    This is version 7
 

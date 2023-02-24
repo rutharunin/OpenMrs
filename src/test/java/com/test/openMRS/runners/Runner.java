@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
 
 )
 
-public class Automation12Runner {
+public class Runner {
 }

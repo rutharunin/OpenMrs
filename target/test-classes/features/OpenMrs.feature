@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Feature: Login Functionalities
+=======
+Feature: As an admin, user should be able to login
+>>>>>>> 143fa482d4ba8fe2a5e7024002e3b51652423538
   Background:
     Given User navigates to the wabpage and user validates the 'title'
   Scenario Outline: Happy Path Login
@@ -34,5 +38,9 @@ Feature: Login Functionalities
   Scenario: User should not be able to login with no both username and password
   Scenario: User should not be able to login with valid both username and password but no location
 
+<<<<<<< HEAD
    # This is version 4
+=======
+    This is version 5
+>>>>>>> 143fa482d4ba8fe2a5e7024002e3b51652423538
 

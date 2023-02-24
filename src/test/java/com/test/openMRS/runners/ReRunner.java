@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "html:target/uiReport.html", "rerun:target/uiFailedTests.txt"}
 
 )
-public class Automation12ReRunner {
+public class ReRunner {
 }
