@@ -1,4 +1,4 @@
-Feature: As an admin, user should be able to login
+Feature: As an admin, user should be able to login and logout
   Background:
     Given User navigates to the wabpage and user validates the 'title'
   Scenario Outline: Happy Path Login
