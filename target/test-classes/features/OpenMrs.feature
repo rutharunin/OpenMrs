@@ -20,19 +20,20 @@ Feature: Login Functionalities
 
   Scenario: User should not be able to login with valid username but invalid password
     When User enters valid username and invalid password 'blablabla'
-    And User chooses a location 'Inpatient Ward' and clicks the login button
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
     Then User validates the error message
 
   Scenario: User should not be able to login with invalid username but valid password
     When User enters invalid username 'ahmet' and valid password
-    And User chooses a location 'Inpatient Ward' and clicks the login button
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
     Then User validates the error message
 
   Scenario: User should not be able to login with invalid both username and password
   Scenario: User should not be able to login with valid username but no password
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
-  Scenario: User should not be able to login with valid both username and password but no location
 
    # This is version 4
 
