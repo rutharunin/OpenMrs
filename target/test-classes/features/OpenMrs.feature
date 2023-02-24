@@ -34,5 +34,5 @@ Feature: As an admin, user should be able to login
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
 
-    This is version 6
+    This is version 5
 
