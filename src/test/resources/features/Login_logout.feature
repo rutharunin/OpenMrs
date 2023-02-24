@@ -34,6 +34,8 @@ Feature: As an admin, user should be able to login and logout
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
   Scenario: User should not be able to login with valid both username and password but no location
+  Scenario: User should not be able to logout
 
-    This is version 6
+
+    This is version 7
 
