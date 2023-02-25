@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Feature: Login Functionalities
-=======
-Feature: As an admin, user should be able to login
->>>>>>> 143fa482d4ba8fe2a5e7024002e3b51652423538
+ Feature: As an admin, user should be able to login and logout
   Background:
     Given User navigates to the wabpage and user validates the 'title'
   Scenario Outline: Happy Path Login
@@ -10,7 +6,7 @@ Feature: As an admin, user should be able to login
     And User chooses location '<location>'
     And User clicks the login button
     Then User validates the header contains text '<user>'
-    And User validates the header contains word '<location>'
+    And User validates the header contains text '<location>'
     And User clicks logout
     Examples:
       | location          | user  |
@@ -24,12 +20,14 @@ Feature: As an admin, user should be able to login
 
   Scenario: User should not be able to login with valid username but invalid password
     When User enters valid username and invalid password 'blablabla'
-    And User chooses a location 'Inpatient Ward' and clicks the login button
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
     Then User validates the error message
 
   Scenario: User should not be able to login with invalid username but valid password
     When User enters invalid username 'ahmet' and valid password
-    And User chooses a location 'Inpatient Ward' and clicks the login button
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
     Then User validates the error message
 
   Scenario: User should not be able to login with invalid both username and password
@@ -37,10 +35,8 @@ Feature: As an admin, user should be able to login
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
   Scenario: User should not be able to login with valid both username and password but no location
+  Scenario: User should not be able to logout
 
-<<<<<<< HEAD
-   # This is version 4
-=======
-    This is version 5
->>>>>>> 143fa482d4ba8fe2a5e7024002e3b51652423538
+
+    This is version 7
 

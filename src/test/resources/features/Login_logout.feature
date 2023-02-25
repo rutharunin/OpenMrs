@@ -1,4 +1,4 @@
-Feature: As an admin, user should be able to login and logout
+ Feature: As an admin, user should be able to login and logout
   Background:
     Given User navigates to the wabpage and user validates the 'title'
   Scenario Outline: Happy Path Login
@@ -7,6 +7,7 @@ Feature: As an admin, user should be able to login and logout
     And User clicks the login button
     Then User validates the header contains text '<user>'
     And User validates the header contains text '<location>'
+    And User clicks logout
     Examples:
       | location          | user  |
       | Inpatient Ward    | admin |
@@ -33,8 +34,6 @@ Feature: As an admin, user should be able to login and logout
   Scenario: User should not be able to login with valid username but no password
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
-  Scenario: User should not be able to login with valid both username and password but no location
-  Scenario: User should not be able to logout
 
 
     This is version 7
