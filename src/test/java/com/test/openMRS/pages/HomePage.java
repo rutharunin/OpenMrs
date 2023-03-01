@@ -21,7 +21,8 @@ public class HomePage {
 
 
     public String getHeader() {
-     return BrowserUtils.getText(header);
+
+        return BrowserUtils.getText(header);
     }
 
     public void clickLogOut() {
