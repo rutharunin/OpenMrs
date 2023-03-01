@@ -16,6 +16,7 @@ public class LoginTest {
     LoginPage loginPage = new LoginPage(driver);
     HomePage homePage = new HomePage(driver);
 
+    //TC_1
     @Given("User navigates to the wabpage and user validates the {string}")
     public void user_navigates_to_the_wabpage_and_user_validates_the(String string) {
         Assert.assertEquals(ConfigReader.readProperty("openmrsURL"), driver.getCurrentUrl());
@@ -27,8 +28,9 @@ public class LoginTest {
     }
 
     @When("User chooses location {string}")
-    public void user_chooses_location(String location) {
-        loginPage.chooseLocation(location);
+    public void user_chooses_location(String locat) {
+
+        loginPage.chooseLocation(locat);
     }
 
     @When("User clicks the login button")
@@ -38,8 +40,9 @@ public class LoginTest {
 
     @Then("User validates the header contains text {string}")
     public void user_validates_the_header_contains_text(String user) {
-    Assert.assertTrue(homePage.getHeader().contains(user));
+        Assert.assertTrue(homePage.getHeader().contains(user));
     }
+
     @Then("User validates the header contains word {string}")
     public void user_validates_the_header_contains_word(String location) {
         Assert.assertTrue(homePage.getHeader().contains(location));
@@ -49,5 +52,23 @@ public class LoginTest {
     public void user_clicks_logout() {
         homePage.clickLogOut();
     }
+
+
+    //TC_2
+//    @When("User enters valid username and invalid password {string}")
+//    public void user_enters_valid_username_and_invalid_password(String string) {
+//
+//        loginPage.login(ConfigReader.readProperty("username"), ConfigReader.readProperty("invalidPassword"));
+//    }
+//
+//    @When("User chooses a location {string} and clicks the login button")
+//    public void user_chooses_a_location_and_clicks_the_login_button(String locate) {
+//        loginPage.chooseLocation(locate);
+//    }
+//
+//    @Then("User validates the error message")
+//    public void user_validates_the_error_message() {
+//        Assert.assertEquals(loginPage.validateErrorMessage().contains());
+//    }
 
 }

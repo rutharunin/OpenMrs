@@ -11,11 +11,11 @@ import utils.ConfigReader;
 import java.util.List;
 
 public class LoginPage {
-WebDriver driver;
+    WebDriver driver;
 
 
-    public LoginPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
+    public LoginPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//input[@id='username']")
@@ -29,6 +29,9 @@ WebDriver driver;
 
     @FindBy(xpath = "//input[@id='loginButton']")
     WebElement loginButton;
+
+    @FindBy(xpath = "//div[@id='error-message']")
+    WebElement errorMessage;
 
 //    @FindBy(xpath = "//li[@id='Inpatient Ward']")
 //    WebElement locationInpatientWard;
@@ -49,21 +52,25 @@ WebDriver driver;
 //    WebElement locationRegistrationDesk;
 
 
-
-
-    public void chooseLocation(String locat){
-        for(WebElement location: locations){
-            if (BrowserUtils.getText(location).equalsIgnoreCase(locat)){
+    public void chooseLocation(String locat) {
+        for (WebElement location : locations) {
+            if (BrowserUtils.getText(location).equalsIgnoreCase(locat)) {
                 location.click();
             }
         }
     }
-    public void login(String username,String password){
+
+    public void login(String username, String password) {
         userNameBox.sendKeys(username);
         passwordBox.sendKeys(password);
-        }
+    }
 
-        public void clickLoginButton(){
+    public void clickLoginButton() {
         loginButton.click();
-        }
+    }
+
+    public String validateErrorMessage() {
+        return BrowserUtils.getText(errorMessage).trim();
+    }
+
 }
