@@ -17,8 +17,8 @@ public class LoginTest {
     HomePage homePage = new HomePage(driver);
 
     //TC_1
-    @Given("User navigates to the wabpage and user validates the {string}")
-    public void user_navigates_to_the_wabpage_and_user_validates_the(String string) {
+    @Given("User navigates to the wabpage and user validates the url")
+    public void user_navigates_to_the_wabpage_and_user_validates_the_url() {
         Assert.assertEquals(ConfigReader.readProperty("openmrsURL"), driver.getCurrentUrl());
     }
 

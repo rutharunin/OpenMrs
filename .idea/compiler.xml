@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="InternshipOpenMrs" target="19" />
+      <module name="MichiganLakeInternship" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>
