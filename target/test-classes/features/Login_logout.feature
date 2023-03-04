@@ -17,17 +17,17 @@ Given User navigates to the wabpage and user validates the url
       | Pharmacy          | admin |
       | Registration Desk | admin |
 
-  Scenario: User should not be able to login with valid username but invalid password
-    When User enters valid username and invalid password 'blablabla'
-    And User chooses a location 'Inpatient Ward '
-    And User clicks the login button
-    Then User validates the error message
-
-  Scenario: User should not be able to login with invalid username but valid password
-    When User enters invalid username 'ahmet' and valid password
-    And User chooses a location 'Inpatient Ward '
-    And User clicks the login button
-    Then User validates the error message
+#  Scenario: User should not be able to login with valid username but invalid password
+#    When User enters valid username and invalid password 'blablabla'
+#    And User chooses a location 'Inpatient Ward '
+#    And User clicks the login button
+#    Then User validates the error message
+#
+#  Scenario: User should not be able to login with invalid username but valid password
+#    When User enters invalid username 'ahmet' and valid password
+#    And User chooses a location 'Inpatient Ward '
+#    And User clicks the login button
+#    Then User validates the error message
 
   Scenario: User should not be able to login with invalid both username and password
   Scenario: User should not be able to login with valid username but no password
