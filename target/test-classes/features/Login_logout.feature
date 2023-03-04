@@ -1,6 +1,6 @@
- Feature: As an admin, user should be able to login and logout
+Feature: As an admin, user should be able to login and logout
+Given User navigates to the wabpage and user validates the url
   Background:
-    Given User navigates to the wabpage and user validates the 'title'
   Scenario Outline: Happy Path Login
     When User enters valid username and valid password
     And User chooses location '<location>'
@@ -16,7 +16,6 @@
       | Outpatient Clinic | admin |
       | Pharmacy          | admin |
       | Registration Desk | admin |
-
 
   Scenario: User should not be able to login with valid username but invalid password
     When User enters valid username and invalid password 'blablabla'
@@ -34,9 +33,18 @@
   Scenario: User should not be able to login with valid username but no password
   Scenario: User should not be able to login with no username but valid password
   Scenario: User should not be able to login with no both username and password
-  Scenario: User should not be able to login with valid both username and password but no location
-  Scenario: User should not be able to logout
 
 
-    This is version 7
+#  Scenario: User should not be able to login with invalid username but valid password
+#    When User enters invalid username 'ahmet' and valid password
+#    And User chooses a location 'Inpatient Ward' and clicks the login button
+#    Then User validates the error message
+#
+#  Scenario: User should not be able to login with invalid both username and password
+#  Scenario: User should not be able to login with valid username but no password
+#  Scenario: User should not be able to login with no username but valid password
+#  Scenario: User should not be able to login with no both username and password
+#  Scenario: User should not be able to login with valid both username and password but no location
+#
+#   # This is version 1000
 

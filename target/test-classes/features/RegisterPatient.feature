@@ -17,3 +17,5 @@ Feature: User can register a patient
     And User clicks home button and clicks Find Patient Record
     And User validates the generated userID is displayed
     And User clicks the patient link then clicks delete, gives the reason 'test', and clicks confirm
+
+#    This is version with June
