@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 Feature: Login Functionalities
   Background:
     Given User navigates to the wabpage and user validates the 'title'
+=======
+Feature: User can login
+Given User navigates to the wabpage and user validates the url
+  Background:
+>>>>>>> f9adcc906a00f5f515fc6e8e3c488dde4fbd5981
   Scenario Outline: Happy Path Login
     When User enters valid username and valid password
     And User chooses location '<location>'

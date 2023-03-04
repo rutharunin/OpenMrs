@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0f7c7f1f-7f4e-47a6-a966-a38484a2cc04" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/InternshipOpenMrs.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -11,11 +12,48 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login_logout.feature" afterDir="false" />
+=======
+    <list default="true" id="49e8f65d-d21a-49f8-b18f-30f9c7dbc563" name="Changes" comment="plus RegisterAPatient v1">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/FindPatientRecordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/MedicalRecordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/RegisterPatientPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/RegisterAPatient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/FindPatientRecordPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/MedicalRecordPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/RegisterPatientPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/ReRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/stepdefinitions/RegisterAPatient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/RegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InternshipOpenMrs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MichiganLakeInternship.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login_logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Automation12ReRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Automation12Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/stepdefinitions/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/stepdefinitions/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/OpenMrs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login_logout.feature" afterDir="false" />
+>>>>>>> f9adcc906a00f5f515fc6e8e3c488dde4fbd5981
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +85,7 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -83,6 +122,27 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login_logout.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="InternshipOpenMrs" />
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/AutomationExercise_26",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Happy Path register a patient">
+    <configuration name="Scenario: Happy Path Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login_logout.feature" />
+      <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MichiganLakeInternship" />
+>>>>>>> f9adcc906a00f5f515fc6e8e3c488dde4fbd5981
       <option name="NAME_FILTER" value="^Happy Path Login$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Happy Path Login$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Happy Path Login" />
@@ -117,6 +177,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Happy Path register a patient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/RegisterPatient.feature" />
+      <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MichiganLakeInternship" />
+      <option name="NAME_FILTER" value="^Happy Path register a patient$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Happy Path register a patient$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Happy Path register a patient" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,7 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Cucumber Java.Feature: Login_logout" />
+=======
+        <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient" />
+>>>>>>> f9adcc906a00f5f515fc6e8e3c488dde4fbd5981
         <item itemvalue="Cucumber Java.Scenario: Happy Path Login (1)" />
         <item itemvalue="Cucumber Java.Scenario: Happy Path Login" />
       </list>
@@ -146,5 +230,9 @@
       <updated>1677281241300</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="plus RegisterAPatient v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="plus RegisterAPatient v1" />
   </component>
 </project>
