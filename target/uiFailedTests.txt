@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 
 file:src/test/resources/features/Login_logout.feature:13:14:15:16:17:20:26
+=======
+<<<<<<< HEAD
+file:src/test/resources/features/Login_logout.feature:13:14:15:16:17:20:26
+=======
+file:src/test/resources/features/OpenMrs.feature:21
+>>>>>>> 2929f876539455da5b0c63221a922b91dbe8a7de
+>>>>>>> main
