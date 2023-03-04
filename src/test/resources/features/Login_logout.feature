@@ -1,4 +1,4 @@
-Feature: User can login
+Feature: As an admin, user should be able to login and logout
 Given User navigates to the wabpage and user validates the url
   Background:
   Scenario Outline: Happy Path Login
@@ -6,7 +6,7 @@ Given User navigates to the wabpage and user validates the url
     And User chooses location '<location>'
     And User clicks the login button
     Then User validates the header contains text '<user>'
-    And User validates the header contains word '<location>'
+    And User validates the header contains text '<location>'
     And User clicks logout
     Examples:
       | location          | user  |
@@ -18,10 +18,23 @@ Given User navigates to the wabpage and user validates the url
       | Registration Desk | admin |
 
 
-#  Scenario: User should not be able to login with valid username but invalid password
-#    When User enters valid username and invalid password invalidPassword
-#    And User chooses a location 'Inpatient Ward' and clicks the login button
-#    Then User validates the error message 'Invalid username/password. Please try again.'
+
+  Scenario: User should not be able to login with valid username but invalid password
+    When User enters valid username and invalid password 'blablabla'
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
+    Then User validates the error message
+
+  Scenario: User should not be able to login with invalid username but valid password
+    When User enters invalid username 'ahmet' and valid password
+    And User chooses a location 'Inpatient Ward '
+    And User clicks the login button
+    Then User validates the error message
+
+  Scenario: User should not be able to login with invalid both username and password
+  Scenario: User should not be able to login with valid username but no password
+  Scenario: User should not be able to login with no username but valid password
+  Scenario: User should not be able to login with no both username and password
 
 #  Scenario: User should not be able to login with invalid username but valid password
 #    When User enters invalid username 'ahmet' and valid password
