@@ -24,22 +24,24 @@ public class HomePage {
     @FindBy(xpath = "//div[@id='apps']/a[1]")
     WebElement findPatientLink;
 
+    @FindBy(xpath = "//div[@id='apps']/a[8]")
+    WebElement systemAdministrationLink;
 
 
     public String getHeader() {
 
         return BrowserUtils.getText(header);
     }
-
     public void clickLogOut() {
         logOutButton.click();
     }
-
     public void clickRegisterPatient(){
         registerPatientLink.click();
     }
-
     public void findPatient(){
         findPatientLink.click();
+    }
+    public void clickSystemAdministration(){
+        systemAdministrationLink.click();
     }
 }
