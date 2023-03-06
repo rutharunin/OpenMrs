@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/AdvancedAdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/PersonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/SystemAdministrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/uiFailedTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/uiFailedTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/uiReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/uiReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +44,17 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/NewFrameworkFromScratchTestNG",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rutha/IdeaProjects/API_Batch14&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Two-layer Test Create a Person">
+}</component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Two-layer Test Create a Patient">
     <configuration name="Feature: TwoLayerRegisterPatient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" />
@@ -81,15 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Happy Path register a patient (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Two-layer Test Create a Patient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/RegisterPatient.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MichiganLakeInternship" />
-      <option name="NAME_FILTER" value="^Happy Path register a patient$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Happy Path register a patient$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Happy Path register a patient" />
+      <option name="NAME_FILTER" value="^Two\-layer Test Create a Patient$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Two\-layer Test Create a Patient$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Two-layer Test Create a Patient" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -121,22 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterPatientAPI.hahah" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MichiganLakeInternship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.openMRS.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.openMRS.api" />
-      <option name="MAIN_CLASS_NAME" value="com.test.openMRS.api.RegisterPatientAPI" />
-      <option name="METHOD_NAME" value="hahah" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MichiganLakeInternship" />
       <extension name="coverage">
@@ -148,6 +125,22 @@
       <option name="PACKAGE_NAME" value="com.test.openMRS.runners" />
       <option name="MAIN_CLASS_NAME" value="com.test.openMRS.runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MichiganLakeInternship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.openMRS.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.openMRS.api" />
+      <option name="MAIN_CLASS_NAME" value="com.test.openMRS.api.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person" />
+        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient" />
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person" />
         <item itemvalue="Cucumber Java.Feature: TwoLayerRegisterPatient" />
-        <item itemvalue="JUnit.RegisterPatientAPI.hahah" />
-        <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient (1)" />
       </list>
     </recent_temporary>
   </component>

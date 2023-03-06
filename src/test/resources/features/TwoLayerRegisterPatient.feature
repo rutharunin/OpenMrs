@@ -1,6 +1,6 @@
 Feature: Two-layer Test Create a Patient
   Scenario: Two-layer Test Create a Person
-    Given User has valid API URL
+    Given User has valid API URL to post a person
     When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-10-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
     Then Statue code is 201
     And User validates person name, person gender, and person age match with the request body '1997-10-02'
@@ -17,12 +17,14 @@ Feature: Two-layer Test Create a Patient
     And User validates 'No matching records found' in the search result
     And User clicks logout from the page
 
-#  Scenario: Two-layer Test Create a Patient
-#    Given User has valid API URL
-#    When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-09-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
-#    Then Statue code is 201
-#    Given User sends GET request for ID, location, and Id type
-#    When User posts a patient with the response information
+  Scenario: Two-layer Test Create a Patient
+    Given User has valid API URL to post a person
+    When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-09-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
+    Then Statue code is 201
+    Given User sends GET request for patient ID
+    And User sends GET request for Id type
+    And User sends GET request for location id
+    When User sends post request to create a patient with the responses information
 #    Then User validates the name and ID in response body match with the request body
 #    And User navigates to the wabpage and user validates the url
 #    When User enters valid username and valid password

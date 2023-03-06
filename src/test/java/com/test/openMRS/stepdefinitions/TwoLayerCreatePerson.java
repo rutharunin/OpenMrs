@@ -24,8 +24,8 @@ public class TwoLayerCreatePerson {
     AdvancedAdminPage advancedAdminPage=new AdvancedAdminPage(driver);
     PersonPage personPage=new PersonPage(driver);
 
-    @Given("User has valid API URL")
-    public void user_has_valid_api_url() {
+    @Given("User has valid API URL to post a person")
+    public void user_has_valid_api_url_to_post_a_person() {
         RestAssured.baseURI="http://codefish.ninja/openmrs";
         RestAssured.basePath="ws/rest/v1/person";
     }
