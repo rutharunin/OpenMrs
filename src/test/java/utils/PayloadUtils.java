@@ -28,4 +28,21 @@ public class PayloadUtils {
 
         return payload;
     }
+    public static String postPatientPayload(String person,String id,String idType,String location){
+
+        String payload="{\n" +
+                " \n" +
+                "    \"identifiers\": [\n" +
+                "        {\n" +
+                "          \"identifier\":\""+id+"\", \n" +
+                "          \"identifierType\":\""+idType+"\", \n" +
+                "          \"location\":\""+location+"\",\n" +
+                "          \"preferred\":true\n" +
+                "        } ],\n" +
+                "    \"person\":\""+person+"\"\n" +
+                " \n" +
+                "}";
+
+        return payload;
+    }
 }
