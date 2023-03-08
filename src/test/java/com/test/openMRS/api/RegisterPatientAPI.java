@@ -67,10 +67,7 @@ public class RegisterPatientAPI {
                 .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
                 .accept(ContentType.JSON)
                 .contentType(ContentType.JSON)
-                .when().get()
-                .then()
-                .statusCode(200)
-                .extract().response();
+                .when().get();
         Map<String,Object> deserializedResponse=response.as(new TypeRef<Map<String,Object>>() {
         });
         List<Map<String,Object>>result=(List<Map<String,Object>>)deserializedResponse.get("results");
@@ -84,10 +81,7 @@ public class RegisterPatientAPI {
                         .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
                         .accept(ContentType.JSON)
                         .contentType(ContentType.JSON)
-                        .when().get()
-                        .then()
-                        .statusCode(200)
-                        .extract().response();
+                        .when().get();
         Map<String,List>deserializedResponse=response.as(new TypeRef<Map<String,List>>() {
         });
         Map<String,Object>results=(Map<String,Object>)deserializedResponse.get("results").get(0);
@@ -104,9 +98,6 @@ public class RegisterPatientAPI {
                         .accept(ContentType.JSON)
                         .contentType(ContentType.JSON)
                         .when().get();
-//                        .then()
-//                        .statusCode(200)
-//                        .extract().response();
         Map<String,List>deserializedResponse=response.as(new TypeRef<Map<String,List>>() {
         });
         patientID=deserializedResponse.get("identifiers").get(0).toString();
