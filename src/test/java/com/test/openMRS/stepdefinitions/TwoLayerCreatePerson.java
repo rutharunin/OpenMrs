@@ -39,7 +39,7 @@ public class TwoLayerCreatePerson {
     }
     @Then("User validates person name, person gender, and person age match with the request body {string}")
     public void user_validates_person_name_person_gender_and_person_age_match_with_the_request_body(String postedDate) throws ParseException {
-        registerPatientAPI.validateResponseInfo(postedDate);
+        registerPatientAPI.validateResponseInfoForPostPerson(postedDate);
     }
     @When("User clicks System Administration button")
     public void user_clicks_system_administration_button() {
