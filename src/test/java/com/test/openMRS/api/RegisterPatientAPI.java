@@ -112,7 +112,7 @@ public class RegisterPatientAPI {
         patientID=deserializedResponse.get("identifiers").get(0).toString();
         System.out.println(patientID);
     }
-    public void postPatient(){
+    public void postPatient () {
 
         response=
         RestAssured.given()
