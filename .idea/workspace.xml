@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PayloadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TwoLayerRegisterPatient.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,9 +157,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient" />
-        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person" />
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Cucumber Java.Feature: TwoLayerRegisterPatient" />
       </list>
     </recent_temporary>

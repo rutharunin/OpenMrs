@@ -33,8 +33,8 @@ public class TwoLayerCreatePerson {
     public void user_sends_post_request_to_create_a_person_named_lastname_gender_birthdate_address1_address2_city_village_state_province_country_postal_code(String name, String lastname, String gender, String dob, String add1, String add2, String city, String state, String country, String zip) {
         registerPatientAPI.postPerson(name,lastname,gender,dob,add1,add2,city,state,country,zip);
     }
-    @Then("Statue code is {int}")
-    public void statue_code_is(Integer int1) {
+    @Then("Post person statue code is {int}")
+    public void post_person_statue_code_is(Integer int1) {
         registerPatientAPI.validateResponseCode(int1);
     }
     @Then("User validates person name, person gender, and person age match with the request body {string}")
