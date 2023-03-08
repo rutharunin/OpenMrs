@@ -61,16 +61,14 @@ public class RegisterPatientAPI {
 //        Assert.assertEquals(years_difference,(long)age);
     }
     public void getIdType(){
-        RestAssured.baseURI="http://codefish.ninja/openmrs";
-        RestAssured.basePath="ws/rest/v1/patientidentifiertype";
         
-        Response response=
+        response=
         RestAssured.given()
                 .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
                 .accept(ContentType.JSON)
+                .contentType(ContentType.JSON)
                 .when().get()
                 .then()
-                .contentType(ContentType.JSON)
                 .statusCode(200)
                 .extract().response();
         Map<String,Object> deserializedResponse=response.as(new TypeRef<Map<String,Object>>() {
@@ -80,16 +78,14 @@ public class RegisterPatientAPI {
         System.out.println(idType);
     }
     public void getLocation(){
-        RestAssured.baseURI="http://codefish.ninja/openmrs";
-        RestAssured.basePath="ws/rest/v1/location";
 
-        Response response=
+        response=
                 RestAssured.given()
                         .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
                         .accept(ContentType.JSON)
+                        .contentType(ContentType.JSON)
                         .when().get()
                         .then()
-                        .contentType(ContentType.JSON)
                         .statusCode(200)
                         .extract().response();
         Map<String,List>deserializedResponse=response.as(new TypeRef<Map<String,List>>() {
@@ -99,32 +95,28 @@ public class RegisterPatientAPI {
         System.out.println(locationID);
     }
     public void getID(){
-        RestAssured.baseURI="http://codefish.ninja/openmrs";
-        RestAssured.basePath="module/idgen/generateIdentifier.form";
 
-        Response response=
+        response=
                 RestAssured.given()
                         .queryParam("source","1")
-                        .params("username","Admin")
-                        .params("password","Admin123")
+                        .queryParam("username","Admin")
+                        .queryParam("password","Admin123")
                         .accept(ContentType.JSON)
-                        .when().get()
-                        .then()
                         .contentType(ContentType.JSON)
-                        .statusCode(200)
-                        .extract().response();
+                        .when().get();
+//                        .then()
+//                        .statusCode(200)
+//                        .extract().response();
         Map<String,List>deserializedResponse=response.as(new TypeRef<Map<String,List>>() {
         });
         patientID=deserializedResponse.get("identifiers").get(0).toString();
         System.out.println(patientID);
     }
     public void postPatient(){
-        RestAssured.baseURI="http://codefish.ninja/openmrs";
-        RestAssured.basePath="ws/rest/v1/patient";
 
-        Response response=
+        response=
         RestAssured.given()
-//                .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
+                .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
 //                .queryParam("source","1")
 //                .queryParam("username","Admin")
 //                .queryParam("password","Admin123")

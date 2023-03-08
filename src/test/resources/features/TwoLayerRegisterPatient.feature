@@ -20,11 +20,19 @@ Feature: Two-layer Test Create a Patient
   Scenario: Two-layer Test Create a Patient
     Given User has valid API URL to post a person
     When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-09-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
-    Then Statue code is 201
-    Given User sends GET request for patient ID
-    And User sends GET request for Id type
-    And User sends GET request for location id
+    Then Post person statue code is 201
+    Given User has valid API URL to get patient ID
+    When User sends GET request for patient ID
+    Then Get patient ID statue code is 200
+    Given User has valid API URL to get patient ID type
+    When User sends GET request for Id type
+    Then Get patient ID type statue code is 200
+    Given User has valid API URL to get location ID
+    When User sends GET request for location id
+    Then Get location ID statue code is 200
+    Given User has valid API URL to post a patient
     When User sends post request to create a patient with the responses information
+#    Then Post patient statue code is 201
 #    Then User validates the name and ID in response body match with the request body
 #    And User navigates to the wabpage and user validates the url
 #    When User enters valid username and valid password
@@ -33,5 +41,4 @@ Feature: Two-layer Test Create a Patient
 #    And User clicks Find Patient Record
 #    When User enters the name posted in API call
 #    Then User validates the ID is the same as the one in API call
-#    And User clicks the patient link then clicks delete, gives the reason 'test', and clicks confirm
 
