@@ -45,7 +45,7 @@ public class RegisterPatientAPI {
         Integer actualStatusCode=response.getStatusCode();
         Assert.assertEquals(expected,actualStatusCode);
     }
-    public void validateResponseInfo(String postedDate) throws ParseException {
+    public void validateResponseInfoForPostPerson(String postedDate) throws ParseException {
         Map<String,Object>deserializedResponse=response.as(new TypeRef<Map<String,Object>>() {
         });
         Assert.assertEquals(name+" "+lastname,deserializedResponse.get("display").toString());
