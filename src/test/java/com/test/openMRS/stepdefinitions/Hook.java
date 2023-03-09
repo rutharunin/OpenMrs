@@ -8,7 +8,7 @@ import utils.DriverHelper;
 
 public class Hook {
     WebDriver driver= DriverHelper.getDriver();
-//    @Before
+    @Before
     public void setup(){
         driver.get(ConfigReader.readProperty("openmrsURL"));
     }

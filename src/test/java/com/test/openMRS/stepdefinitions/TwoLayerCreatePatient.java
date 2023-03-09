@@ -1,14 +1,21 @@
 package com.test.openMRS.stepdefinitions;
 
 import com.test.openMRS.api.RegisterPatientAPI;
+import com.test.openMRS.pages.FindPatientRecordPage;
+import com.test.openMRS.pages.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
+import org.openqa.selenium.WebDriver;
+import utils.DriverHelper;
 
 public class TwoLayerCreatePatient {
 
+    WebDriver driver=DriverHelper.getDriver();
     RegisterPatientAPI registerPatientAPI=new RegisterPatientAPI();
+    HomePage homePage=new HomePage(driver);
+    FindPatientRecordPage findPatientRecordPage=new FindPatientRecordPage(driver);
 
     @Given("User has valid API URL to get patient ID")
     public void user_has_valid_api_url_to_get_patient_id() {
@@ -57,5 +64,18 @@ public class TwoLayerCreatePatient {
     @When("User sends post request to create a patient with the responses information")
     public void user_sends_post_request_to_create_a_patient_with_the_responses_information() {
         registerPatientAPI.postPatient();
+    }
+    @When("User clicks Find Patient Record")
+    public void user_clicks_find_patient_record() {
+        homePage.findPatient();
+    }
+    @Then("User enters the name {string} posted in API call and validates that it is displayed")
+    public void user_enters_the_name_posted_in_api_call_and_validates_that_it_is_displayed(String patientName) {
+        findPatientRecordPage.validatePatientName(patientName);
+    }
+
+    @When("User clicks on the name on the first row and clicks delete, enters the reason {string}, and clicks confirm")
+    public void user_clicks_on_the_name_on_the_first_row_and_clicks_delete_enters_the_reason_and_clicks_confirm(String reason) {
+        findPatientRecordPage.deletePatient(reason,driver);
     }
 }

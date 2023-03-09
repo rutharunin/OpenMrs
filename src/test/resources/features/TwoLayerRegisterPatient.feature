@@ -1,8 +1,11 @@
 Feature: Two-layer Test Create a Patient
-  Scenario: Two-layer Test Create a Person
+  Background:
     Given User has valid API URL to post a person
     When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-10-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
     Then Post person statue code is 201
+
+  Scenario: Two-layer Test Create a Person
+
     And User validates person name, person gender, and person age match with the request body '1997-10-02'
     And User navigates to the wabpage and user validates the url
     When User enters valid username and valid password
@@ -18,9 +21,7 @@ Feature: Two-layer Test Create a Patient
     And User clicks logout from the page
 
   Scenario: Two-layer Test Create a Patient
-    Given User has valid API URL to post a person
-    When User sends POST request to create a person named 'hahaha', lastname 'hohoho',gender 'M', birthdate '1997-09-15', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
-    Then Post person statue code is 201
+
     And User validates person name, person gender, and person age match with the request body '1997-10-02'
     Given User has valid API URL to get patient ID
     When User sends GET request for patient ID
@@ -35,11 +36,13 @@ Feature: Two-layer Test Create a Patient
     When User sends post request to create a patient with the responses information
 #    Then Post patient statue code is 201
 #    Then User validates the name and ID in response body match with the request body
-#    And User navigates to the wabpage and user validates the url
-#    When User enters valid username and valid password
-#    And User chooses location 'Inpatient Ward'
-#    And User clicks the login button
-#    And User clicks Find Patient Record
-#    When User enters the name posted in API call
-#    Then User validates the ID is the same as the one in API call
+    And User navigates to the wabpage and user validates the url
+    When User enters valid username and valid password
+    And User chooses location 'Inpatient Ward'
+    And User clicks the login button
+    And User clicks Find Patient Record
+    Then User enters the name 'Baks' posted in API call and validates that it is displayed
+#    And User validates the ID is the same as the one in API call
+    And User clicks on the name on the first row and clicks delete, enters the reason 'test', and clicks confirm
+    And User clicks logout
 
