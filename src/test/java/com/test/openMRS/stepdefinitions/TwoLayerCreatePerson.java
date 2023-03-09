@@ -35,7 +35,7 @@ public class TwoLayerCreatePerson {
     }
     @Then("Post person statue code is {int}")
     public void post_person_statue_code_is(Integer int1) {
-        registerPatientAPI.validateResponseCode(int1);
+        registerPatientAPI.validateStatusCode(int1);
     }
     @Then("User validates person name, person gender, and person age match with the request body {string}")
     public void user_validates_person_name_person_gender_and_person_age_match_with_the_request_body(String postedDate) throws ParseException {

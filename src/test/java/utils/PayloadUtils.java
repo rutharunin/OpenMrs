@@ -28,7 +28,7 @@ public class PayloadUtils {
 
         return payload;
     }
-    public static String postPatientPayload(String person,String id,String idType,String location){
+    public static String postPatientPayload(String person_ID,String id,String idType,String location){
 
         String payload="{\n" +
                 " \n" +
@@ -39,7 +39,7 @@ public class PayloadUtils {
                 "          \"location\":\""+location+"\",\n" +
                 "          \"preferred\":true\n" +
                 "        } ],\n" +
-                "    \"person\":\""+person+"\"\n" +
+                "    \"person\":\""+person_ID+"\"\n" +
                 " \n" +
                 "}";
 
