@@ -19,8 +19,9 @@ Feature: Two-layer Test Create a Patient
 
   Scenario: Two-layer Test Create a Patient
     Given User has valid API URL to post a person
-    When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-09-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
+    When User sends POST request to create a person named 'hahaha', lastname 'hohoho',gender 'M', birthdate '1997-09-15', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
     Then Post person statue code is 201
+    And User validates person name, person gender, and person age match with the request body '1997-10-02'
     Given User has valid API URL to get patient ID
     When User sends GET request for patient ID
     Then Get patient ID statue code is 200

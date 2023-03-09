@@ -25,7 +25,7 @@ public class RegisterAPatient {
         registerPatientPage.fillOutName(string,string2);
     }
     @When("User enters the gender")
-    public void user_enters_the_gender() {
+    public void user_enters_the_gender()  {
         registerPatientPage.fillOutGenderMale();
     }
     @When("User enters birthdate {int}, {string}, {int}")

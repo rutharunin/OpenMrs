@@ -20,8 +20,8 @@ public class TwoLayerCreatePatient {
         registerPatientAPI.getID();
     }
     @Then("Get patient ID statue code is {int}")
-    public void get_patient_id_statue_code_is(Integer int1) {
-        registerPatientAPI.validateResponseCode(int1);
+    public void get_patient_id_statue_code_is(Integer expectedStatusCode) {
+        registerPatientAPI.validateStatusCode(expectedStatusCode);
     }
     @Given("User has valid API URL to get patient ID type")
     public void user_has_valid_api_url_to_get_patient_id_type() {
@@ -33,8 +33,8 @@ public class TwoLayerCreatePatient {
         registerPatientAPI.getIdType();
     }
     @Then("Get patient ID type statue code is {int}")
-    public void get_patient_id_type_statue_code_is(Integer int1) {
-        registerPatientAPI.validateResponseCode(int1);
+    public void get_patient_id_type_statue_code_is(Integer expectedStatusCode) {
+        registerPatientAPI.validateStatusCode(expectedStatusCode);
     }
     @Given("User has valid API URL to get location ID")
     public void user_has_valid_api_url_to_get_location_id() {
@@ -46,8 +46,8 @@ public class TwoLayerCreatePatient {
         registerPatientAPI.getLocation();
     }
     @Then("Get location ID statue code is {int}")
-    public void get_location_id_statue_code_is(Integer int1) {
-        registerPatientAPI.validateResponseCode(int1);
+    public void get_location_id_statue_code_is(Integer expectedStatusCode) {
+        registerPatientAPI.validateStatusCode(expectedStatusCode);
     }
     @Given("User has valid API URL to post a patient")
     public void user_has_valid_api_url_to_post_a_patient() {
