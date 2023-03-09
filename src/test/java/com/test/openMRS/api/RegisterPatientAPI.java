@@ -45,12 +45,10 @@ public class RegisterPatientAPI {
         personID=postPersonResponse.as(new TypeRef<Map<String,Object>>() {
         }).get("uuid").toString();
         statusCode=postPersonResponse.getStatusCode();
-        System.out.println("person ID "+personID);
     }
     public void validateStatusCode(Integer expected){
         Integer actualStatusCode=statusCode;
         Assert.assertEquals(expected,actualStatusCode);
-        System.out.println("person ID at status code "+personID);
     }
     public void validateResponseInfoForPostPerson(String postedDate) throws ParseException {
         Map<String,Object>deserializedResponse=postPersonResponse.as(new TypeRef<Map<String,Object>>() {
@@ -66,7 +64,6 @@ public class RegisterPatientAPI {
 //        long time_difference = date.getTime() - posted.getTime();
 //        long years_difference = (time_difference / (1000l*60*60*24*365));
 //        Assert.assertEquals(years_difference,(long)age);
-        System.out.println("person ID at validation "+personID);
     }
     public void getIdType(){
         
@@ -81,7 +78,6 @@ public class RegisterPatientAPI {
         List<Map<String,Object>>result=(List<Map<String,Object>>)deserializedResponse.get("results");
         idType= result.get(0).get("uuid").toString();
         statusCode=getIDTypeResponse.getStatusCode();
-        System.out.println("idType "+idType);
     }
     public void getLocation(){
 
@@ -96,7 +92,6 @@ public class RegisterPatientAPI {
         Map<String,Object>results=(Map<String,Object>)deserializedResponse.get("results").get(0);
         locationID=results.get("uuid").toString();
         statusCode=getLocationResponse.getStatusCode();
-        System.out.println("locationID "+locationID);
     }
     public void getID(){
 
@@ -112,11 +107,8 @@ public class RegisterPatientAPI {
         });
         patientID=deserializedResponse.get("identifiers").get(0).toString();
         statusCode=getPatientIdResponse.getStatusCode();
-        System.out.println("person ID at get ID "+personID);
-        System.out.println("patient ID "+ patientID);
     }
     public void postPatient () {
-        System.out.println(PayloadUtils.postPatientPayload(personID,patientID,idType,locationID));
         postPatientResponse=
         RestAssured.given()
                 .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
@@ -124,7 +116,7 @@ public class RegisterPatientAPI {
                 .accept(ContentType.JSON)
                 .body(PayloadUtils.postPatientPayload(personID,patientID,idType,locationID))
                 .when().post()
-                .then().log().all()
+                .then().log().body()
                 .statusCode(201)
                 .extract().response();
     }

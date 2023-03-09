@@ -1,5 +1,6 @@
 package com.test.openMRS.pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,6 +28,9 @@ public class HomePage {
     @FindBy(xpath = "//div[@id='apps']/a[8]")
     WebElement systemAdministrationLink;
 
+    @FindBy(xpath = "//div[@id='apps']/a[1]")
+    WebElement findPatientButton;
+
 
     public String getHeader() {
 
@@ -43,5 +47,8 @@ public class HomePage {
     }
     public void clickSystemAdministration(){
         systemAdministrationLink.click();
+    }
+    public void clickFindPatient(){
+        findPatientButton.click();
     }
 }
