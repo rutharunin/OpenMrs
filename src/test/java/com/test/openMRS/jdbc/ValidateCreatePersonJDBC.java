@@ -3,6 +3,7 @@ package com.test.openMRS.jdbc;
 import com.test.openMRS.api.RegisterPatientAPI;
 import org.checkerframework.checker.units.qual.C;
 import org.junit.Assert;
+import utils.JDBC.JDBCUtils;
 
 import java.sql.*;
 
@@ -16,9 +17,7 @@ public class ValidateCreatePersonJDBC {
     public void createResultSet(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con= DriverManager.getConnection(
-                    "jdbc:mysql://codefish.ninja:3306/openmrs","openmrs","Admin123");
-//here openmrs is database name, openmrs is username and Admin123 is password
+            con= DriverManager.getConnection("jdbc:mysql://codefish.ninja:3306/openmrs","openmrs","Admin123");
             stmt=con.createStatement();
             rs=stmt.executeQuery("select * from person_name");
         }catch(Exception e){ System.out.println(e);
@@ -57,7 +56,7 @@ public class ValidateCreatePersonJDBC {
                     personGone=true;
                 }else personGone=false;
             } Assert.assertTrue(personGone);
-            rs.close();
+            JDBCUtils.closeConnection();
         } catch (Exception e) {
             System.out.println(e);
         }
