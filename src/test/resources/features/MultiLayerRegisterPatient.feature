@@ -59,7 +59,7 @@ Feature: Two-layer Test Create a Patient
     And User enters the name 'Baks' of the person created with API in the Person Name box
     Then User validates address1 '5555 w LLLL', address2 'APT 207', city 'Heaven', state 'IL', country 'USA', zip '60000', and birthdate '1997-10-02'
     And User clicks logout from the page
-    Then User enters the uuid given from the API response and validates the name 'Baks' matches the name in the database
+    Then User enters the uuid given from the API response and validates the uuid from API matches the uuid in the database
     And user delete the person and validates the person uuid is null
 
 
