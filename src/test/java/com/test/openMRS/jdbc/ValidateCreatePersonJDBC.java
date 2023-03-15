@@ -43,6 +43,7 @@ public class ValidateCreatePersonJDBC {
         try {
             PreparedStatement p=con.prepareStatement("delete from person_name where given_name='Baks'");
             p.execute();
+            rs.close();
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -50,12 +51,13 @@ public class ValidateCreatePersonJDBC {
     public void validateDeletePerson(){
         createResultSet();
         try {
-            Boolean personGone=true;
+            Boolean personGone=false;
             while (rs.next()) {
-                if (rs.getString("uuid").equalsIgnoreCase(RegisterPatientAPI.personID)) {
-                    personGone=false;
-                }
+                if (!rs.getString("uuid").equalsIgnoreCase(RegisterPatientAPI.personID)) {
+                    personGone=true;
+                }else personGone=false;
             } Assert.assertTrue(personGone);
+            rs.close();
         } catch (Exception e) {
             System.out.println(e);
         }
