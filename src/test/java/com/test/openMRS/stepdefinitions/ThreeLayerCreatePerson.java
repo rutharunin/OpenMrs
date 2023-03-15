@@ -8,8 +8,8 @@ public class ThreeLayerCreatePerson {
     RegisterPatientAPI registerPatientAPI=new RegisterPatientAPI();
     ValidateCreatePersonJDBC validateCreatePersonJDBC=new ValidateCreatePersonJDBC();
 
-    @Then("User enters the uuid given from the API response and validates the name {string} matches the name in the database")
-    public void user_enters_the_uuid_given_from_the_api_response_and_validates_the_name_matches_the_name_in_the_database(String name) {
+    @Then("User enters the uuid given from the API response and validates the uuid from API matches the uuid in the database")
+    public void user_enters_the_uuid_given_from_the_api_response_and_validates_the_uuid_from_api_matches_the_uuid_in_the_database() {
         validateCreatePersonJDBC.createPersonTest(registerPatientAPI.getPersonID());
     }
     @Then("user delete the person and validates the person uuid is null")
