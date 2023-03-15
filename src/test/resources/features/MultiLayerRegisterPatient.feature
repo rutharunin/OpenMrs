@@ -42,7 +42,24 @@ Feature: Two-layer Test Create a Patient
     And User clicks the login button
     And User clicks Find Patient Record
     Then User enters the name 'Baks' posted in API call and validates that it is displayed
-#    And User validates the ID is the same as the one in API call
+#    And User validates the ID is the same as the one in API sent in the API request body
     And User clicks on the name on the first row and clicks delete, enters the reason 'test', and clicks confirm
     And User clicks logout
+
+  Scenario: Three-layer Test Create a Person
+
+    And User validates person name, person gender, and person age match with the request body '1997-10-02'
+    And User navigates to the wabpage and user validates the url
+    When User enters valid username and valid password
+    And User chooses location 'Inpatient Ward'
+    And User clicks the login button
+    When User clicks System Administration button
+    And User clicks Advanced Administration button
+    And User clicks Manage Persons link
+    And User enters the name 'Baks' of the person created with API in the Person Name box
+    Then User validates address1 '5555 w LLLL', address2 'APT 207', city 'Heaven', state 'IL', country 'USA', zip '60000', and birthdate '1997-10-02'
+    And User clicks logout from the page
+  Then User enters the uuid given from the API response and validates the name 'Baks' matches the name in the database
+  And user delete the person and validates the person uuid is null
+
 
