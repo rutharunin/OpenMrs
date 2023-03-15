@@ -114,15 +114,14 @@ public class RegisterPatientAPI {
         statusCode=getPatientIdResponse.getStatusCode();
     }
     public void postPatient () {
-        postPatientResponse=
+
         RestAssured.given()
                 .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
                 .body(PayloadUtils.postPatientPayload(personID,patientID,idType,locationID))
                 .when().post()
-                .then().log().body()
-                .statusCode(201)
-                .extract().response();
+                .then()
+                .statusCode(201);
     }
 }

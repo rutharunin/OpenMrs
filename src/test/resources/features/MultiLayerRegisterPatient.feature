@@ -4,7 +4,7 @@ Feature: Two-layer Test Create a Patient
     When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-10-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
     Then Post person statue code is 201
 
-  Scenario: Two-layer Test Create a Person
+  Scenario: Two-layer Test Create a Person: create with API validate with UI
 
     And User validates person name, person gender, and person age match with the request body '1997-10-02'
     And User navigates to the wabpage and user validates the url
@@ -20,7 +20,7 @@ Feature: Two-layer Test Create a Patient
     And User validates 'No matching records found' in the search result
     And User clicks logout from the page
 
-  Scenario: Two-layer Test Create a Patient
+  Scenario: Two-layer Test Create a Patient: create with API validate with UI
 
     And User validates person name, person gender, and person age match with the request body '1997-10-02'
     Given User has valid API URL to get patient ID
@@ -46,7 +46,7 @@ Feature: Two-layer Test Create a Patient
     And User clicks on the name on the first row and clicks delete, enters the reason 'test', and clicks confirm
     And User clicks logout
 
-  Scenario: Three-layer Test Create a Person
+  Scenario: Three-layer Test Create a Person: create with API validate with UI and database
 
     And User validates person name, person gender, and person age match with the request body '1997-10-02'
     And User navigates to the wabpage and user validates the url
@@ -59,7 +59,7 @@ Feature: Two-layer Test Create a Patient
     And User enters the name 'Baks' of the person created with API in the Person Name box
     Then User validates address1 '5555 w LLLL', address2 'APT 207', city 'Heaven', state 'IL', country 'USA', zip '60000', and birthdate '1997-10-02'
     And User clicks logout from the page
-  Then User enters the uuid given from the API response and validates the name 'Baks' matches the name in the database
-  And user delete the person and validates the person uuid is null
+    Then User enters the uuid given from the API response and validates the name 'Baks' matches the name in the database
+    And user delete the person and validates the person uuid is null
 
 
