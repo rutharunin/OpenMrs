@@ -23,7 +23,8 @@ public class ValidateCreatePersonJDBC {
         }catch(Exception e){ System.out.println(e);
         }
     }
-    public void createPersonTest(String f_name) {
+    public void createPersonTest() {
+        createResultSet();
         try {
             boolean personCreated=false;
             while (rs.next()) {
