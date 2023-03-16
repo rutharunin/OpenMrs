@@ -9,12 +9,9 @@ import java.sql.*;
 
 public class ValidateCreatePersonJDBC {
 
-
     private Connection con;
     private Statement stmt;
     private ResultSet rs;
-    private String uuid;
-    private String person_id;
 
     public void createResultSet(){
         try{
@@ -27,14 +24,10 @@ public class ValidateCreatePersonJDBC {
         }
     }
     public void createPersonTest(String f_name) {
-        createResultSet();
-        System.out.println("API UUID "+RegisterPatientAPI.getPersonID());
         try {
             boolean personCreated=false;
             while (rs.next()) {
                 if (rs.getString("person.uuid").equalsIgnoreCase(RegisterPatientAPI.getPersonID())) {
-                    person_id=rs.getString("person.person_id");
-                    uuid=RegisterPatientAPI.getPersonID();
                     personCreated=true;
                     break;
                 }
