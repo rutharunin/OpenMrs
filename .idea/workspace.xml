@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ReRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePersonJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePersonJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/ThreeLayerCreatePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/ThreeLayerCreatePerson.java" afterDir="false" />
-    </list>
+    <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
