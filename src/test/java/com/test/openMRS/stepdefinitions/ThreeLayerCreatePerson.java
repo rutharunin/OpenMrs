@@ -14,7 +14,7 @@ public class ThreeLayerCreatePerson {
     }
     @Then("user delete the person and validates the person uuid is null")
     public void user_delete_the_person_and_validates_the_person_uuid_is_null() {
-        validateCreatePersonJDBC.deletePersonTest();
-        validateCreatePersonJDBC.validateDeletePerson();
+        validateCreatePersonJDBC.deletePersonTest("Baks","Aaabbb");
+        validateCreatePersonJDBC.validateDeletePerson("Baks","Aaabbb");
     }
 }
