@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ReRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/RegisterPatientAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/api/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePersonJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePersonJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/ThreeLayerCreatePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/ThreeLayerCreatePerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetFirstTable.dbtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MichiganLakeInternship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.openMRS.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.openMRS.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.test.openMRS.jdbc.GetFirstTable" />
+      <option name="METHOD_NAME" value="dbtest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MichiganLakeInternship" />
       <extension name="coverage">
@@ -121,22 +141,6 @@
       <option name="PACKAGE_NAME" value="com.test.openMRS.runners" />
       <option name="MAIN_CLASS_NAME" value="com.test.openMRS.runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateCreatePersonJDBC.dbtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MichiganLakeInternship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.openMRS.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.openMRS.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.test.openMRS.jdbc.ValidateCreatePersonJDBC" />
-      <option name="METHOD_NAME" value="dbtest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Three-layer Test Create a Person: create with API validate with UI and database" />
-        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate with UI" />
+        <item itemvalue="JUnit.GetFirstTable.dbtest" />
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Scenario: Three-layer Test Create a Person (1)" />
-        <item itemvalue="JUnit.ValidateCreatePersonJDBC.dbtest" />
       </list>
     </recent_temporary>
   </component>

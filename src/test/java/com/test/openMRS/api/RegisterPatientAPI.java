@@ -24,7 +24,7 @@ public class RegisterPatientAPI {
     private String gender;
     private String birthdate;
     private String address1;
-    public static String personID;
+    private static String personID;
 
     public static String getPersonID() {
         return personID;
