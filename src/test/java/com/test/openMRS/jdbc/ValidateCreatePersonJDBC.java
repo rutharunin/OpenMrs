@@ -56,7 +56,7 @@ public class ValidateCreatePersonJDBC {
     public void validateDeletePerson(String firstName,String lastName){
         createResultSet();
         try {
-            Boolean personGone=true;
+            Boolean personGone=false;
             while (rs.next()) {
                 if (!rs.getString("person_name.given_name").equalsIgnoreCase(firstName)&&
                         !rs.getString("person_name.family_name").equalsIgnoreCase(lastName)) {
