@@ -1,7 +1,6 @@
-Feature: User can register a patient
+Feature: Two-layer User can register a patient
+  Scenario: UI register patient and Database delete
     Given User navigates to the wabpage and user validates the url
-  Background:
-  Scenario: Happy Path register a patient
     When User enters valid username and valid password
     And User chooses location 'Inpatient Ward'
     And User clicks the login button
@@ -16,6 +15,7 @@ Feature: User can register a patient
     Then User validate the title 'OpenMRS Electronic Medical Record'
     And User clicks home button and clicks Find Patient Record
     And User validates the generated userID is displayed
-#    And User clicks the patient link then clicks delete, gives the reason 'test', and clicks confirm
-
-#    This is version with June
+    And User validates that the patient ID in UI matches patient ID in database
+    And User deletes patient ID in database and close database connection
+    And User refreshes the UI page and search for the patient using patient ID
+    And User validate message 'No Data Available'

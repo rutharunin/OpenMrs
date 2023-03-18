@@ -26,12 +26,17 @@ public class FindPatientRecordPage {
     WebElement deleteReasonBox;
     @FindBy(xpath = "(//button[@class='confirm right']/i)[3]")
     WebElement confirmButton;
+    @FindBy(css = ".dataTables_empty")
+    WebElement noPatientRecordMessage;
 
-    public void validatePatientCreated(){
-
-        Assert.assertEquals(patientIDLink.getText(),BrowserUtils.getText(patientIDLink));
+    public static String patientID;
+    public static String getPatientID() {
+        return patientID;
     }
-
+    public void validatePatientCreated(){
+        patientID=patientIDLink.getText();
+        Assert.assertTrue(patientIDLink.isDisplayed());
+    }
     public void goToMedicalRecord(){
         patientIDLink.click();
     }
@@ -39,10 +44,16 @@ public class FindPatientRecordPage {
         searchPatientBox.sendKeys(patientName);
         Assert.assertTrue(nameLink.getText().contains(patientName));
     }
-    public void deletePatient(String reasonToDelete,WebDriver driver){
+    public void deletePatientWithName(String reasonToDelete,WebDriver driver){
         nameLink.click();
         deletePatientLink.click();
         deleteReasonBox.sendKeys(reasonToDelete);
         BrowserUtils.clickWithJS(driver,confirmButton);
+    }
+    public void searchWithPatientID(){
+        searchPatientBox.sendKeys(patientID);
+    }
+    public void validateNoPatientRecord(String expected){
+        Assert.assertEquals(expected,BrowserUtils.getText(noPatientRecordMessage));
     }
 }

@@ -75,6 +75,6 @@ public class TwoLayerCreatePatient_API_UI {
     }
     @When("User clicks on the name on the first row and clicks delete, enters the reason {string}, and clicks confirm")
     public void user_clicks_on_the_name_on_the_first_row_and_clicks_delete_enters_the_reason_and_clicks_confirm(String reason) {
-        findPatientRecordPage.deletePatient(reason,driver);
+        findPatientRecordPage.deletePatientWithName(reason,driver);
     }
 }

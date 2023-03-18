@@ -4,6 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class MedicalRecordPage {
     public MedicalRecordPage(WebDriver driver){
@@ -24,8 +28,10 @@ public class MedicalRecordPage {
        patientID=newPatientID.getText();
     }
     public void clickHome(WebDriver driver){
-        initPatientID();
         driver.navigate().refresh();
+        initPatientID();
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        homeIcon=wait.until(ExpectedConditions.visibilityOf(homeIcon));
         homeIcon.click();
     }
     public void deletePatient(String reason){
