@@ -60,6 +60,24 @@ Feature: Two-layer Test Create a Patient
     Then User validates address1 '5555 w LLLL', address2 'APT 207', city 'Heaven', state 'IL', country 'USA', zip '60000', and birthdate '1997-10-02'
     And User clicks logout from the page
     Then User enters the uuid given from the API response and validates the uuid from API matches the uuid in the database
-    And user delete the person and validates the person uuid is null
+    And user delete the person and validates the person uuid is null and close the database connection
+
+  Scenario: Three-layer Test Create a Patient: create with API validate database
+
+    And User validates person name, person gender, and person age match with the request body '1997-10-02'
+    Given User has valid API URL to get patient ID
+    When User sends GET request for patient ID
+    Then Get patient ID statue code is 200
+    Given User has valid API URL to get patient ID type
+    When User sends GET request for Id type
+    Then Get patient ID type statue code is 200
+    Given User has valid API URL to get location ID
+    When User sends GET request for location id
+    Then Get location ID statue code is 200
+    Given User has valid API URL to post a patient
+    When User sends post request to create a patient with the responses information
+    Then User validates that the API patient uuid matches database patient uuid
+    And User deletes patient uuid in database and validates that it is null
+    And user delete the person and validates the person uuid is null and close the database connection
 
 

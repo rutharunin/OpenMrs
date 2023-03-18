@@ -10,7 +10,7 @@ import io.restassured.RestAssured;
 import org.openqa.selenium.WebDriver;
 import utils.DriverHelper;
 
-public class TwoLayerCreatePatient {
+public class TwoLayerCreatePatient_API_UI {
 
     WebDriver driver=DriverHelper.getDriver();
     RegisterPatientAPI registerPatientAPI=new RegisterPatientAPI();
@@ -73,7 +73,6 @@ public class TwoLayerCreatePatient {
     public void user_enters_the_name_posted_in_api_call_and_validates_that_it_is_displayed(String patientName) {
         findPatientRecordPage.validatePatientName(patientName);
     }
-
     @When("User clicks on the name on the first row and clicks delete, enters the reason {string}, and clicks confirm")
     public void user_clicks_on_the_name_on_the_first_row_and_clicks_delete_enters_the_reason_and_clicks_confirm(String reason) {
         findPatientRecordPage.deletePatient(reason,driver);
