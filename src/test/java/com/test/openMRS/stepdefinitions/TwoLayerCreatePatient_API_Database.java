@@ -6,6 +6,7 @@ import io.cucumber.java.en.Then;
 public class TwoLayerCreatePatient_API_Database {
 
     ValidateCreatePatient_API_JDBC validateCreatePatientAPIJDBC =new ValidateCreatePatient_API_JDBC();
+
     @Then("User validates that the API patient uuid matches database patient uuid")
     public void user_validates_that_the_api_patient_uuid_matches_database_patient_uuid() {
         validateCreatePatientAPIJDBC.createResultSet();

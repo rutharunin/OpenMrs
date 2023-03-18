@@ -18,9 +18,11 @@ import java.util.Date;
 
 
 public class PersonPage {
+
     public PersonPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(css = "#inputNode")
     WebElement nameBox;
     @FindBy(xpath = "//td[.='Baks']")

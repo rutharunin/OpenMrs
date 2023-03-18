@@ -9,7 +9,6 @@ import utils.DriverHelper;
 public class TwoLayerCreatePatient_UI_Database_UI {
 
     WebDriver driver=DriverHelper.getDriver();
-
     ValidateCreatePatient_UI_JDBC validateCreatePatientUiJdbc=new ValidateCreatePatient_UI_JDBC();
     FindPatientRecordPage findPatientRecordPage=new FindPatientRecordPage(driver);
 

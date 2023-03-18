@@ -10,9 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class MedicalRecordPage {
+
     public MedicalRecordPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
+
     public static String patientID;
     @FindBy(xpath = "//div[@class='identifiers']/span")
     WebElement newPatientID;
@@ -24,6 +26,7 @@ public class MedicalRecordPage {
     WebElement deleteReasonBox;
     @FindBy(xpath = "//div[@id='delete-patient-creation-dialog']//button[@class='confirm right']")
     WebElement confirmButton;
+
     public void initPatientID(){
        patientID=newPatientID.getText();
     }
