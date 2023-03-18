@@ -7,9 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 import utils.BrowserUtils;
 
 public class RegisterPatientPage {
+
     public RegisterPatientPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(tagName = "h2")
     WebElement header;
     @FindBy(xpath = "//input[@name='givenName']")

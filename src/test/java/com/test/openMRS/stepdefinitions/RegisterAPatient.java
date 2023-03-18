@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import utils.DriverHelper;
 
 public class RegisterAPatient {
+
     WebDriver driver = DriverHelper.getDriver();
     HomePage homePage = new HomePage(driver);
     RegisterPatientPage registerPatientPage=new RegisterPatientPage(driver);

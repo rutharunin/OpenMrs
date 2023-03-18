@@ -15,25 +15,18 @@ public class HomePage {
 
     @FindBy(xpath = "//h4")
     WebElement header;
-
     @FindBy(xpath = "//a[contains(text(),'Logout')]")
     WebElement logOutButton;
-
     @FindBy(xpath = "//div[@id='apps']/a[3]")
     WebElement registerPatientLink;
-
     @FindBy(xpath = "//div[@id='apps']/a[1]")
     WebElement findPatientLink;
-
     @FindBy(xpath = "//div[@id='apps']/a[8]")
     WebElement systemAdministrationLink;
-
     @FindBy(xpath = "//div[@id='apps']/a[1]")
     WebElement findPatientButton;
 
-
     public String getHeader() {
-
         return BrowserUtils.getText(header);
     }
     public void clickLogOut() {

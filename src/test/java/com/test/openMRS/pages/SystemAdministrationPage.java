@@ -6,9 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SystemAdministrationPage {
+
     public SystemAdministrationPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(xpath = "//a[@href='/openmrs/admin/index.htm']")
     WebElement advancedAdministrationLink;
 

@@ -12,5 +12,4 @@ public class Hook {
     public void setup(){
         driver.get(ConfigReader.readProperty("openmrsURL"));
     }
-
 }

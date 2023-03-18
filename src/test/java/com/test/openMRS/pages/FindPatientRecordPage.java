@@ -11,9 +11,11 @@ import utils.BrowserUtils;
 import java.time.Duration;
 
 public class FindPatientRecordPage {
+
     public FindPatientRecordPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(xpath = "(//tbody//td)[1]")
     WebElement patientIDLink;
     @FindBy(xpath = "//input[@id='patient-search']")
@@ -28,6 +30,7 @@ public class FindPatientRecordPage {
     WebElement confirmButton;
     @FindBy(css = ".dataTables_empty")
     WebElement noPatientRecordMessage;
+
 
     public static String patientID;
     public static String getPatientID() {

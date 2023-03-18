@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_UI_JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient_UI_Database_UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UI_DatabaseRegisterPatient.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatientJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_API_JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/FindPatientRecordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/FindPatientRecordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/MedicalRecordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/pages/MedicalRecordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient_API_Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient_API_Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient_API_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/TwoLayerCreatePatient_API_UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIRegisterPatient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/FindPatientRecordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/pages/FindPatientRecordPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

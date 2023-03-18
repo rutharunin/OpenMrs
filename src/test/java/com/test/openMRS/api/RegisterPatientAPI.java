@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 public class RegisterPatientAPI {
+
     private Response postPersonResponse;
     private Response getIDTypeResponse;
     private Response getLocationResponse;
@@ -25,21 +26,18 @@ public class RegisterPatientAPI {
     private String birthdate;
     private String address1;
     private static String personID;
-
-    public static String getPersonID() {
-        return personID;
-    }
-
     private String idType;
     private String locationID;
     private String patientID;
     private Integer statusCode;
+    public static String patientUUID;
 
+    public static String getPersonID() {
+        return personID;
+    }
     public static String getPatientUUID() {
         return patientUUID;
     }
-
-    public static String patientUUID;
     public void postPerson(String name, String lastname, String gender, String dob, String add1, String add2, String city, String state, String country, String zip){
         postPersonResponse=
         RestAssured.given()
