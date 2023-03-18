@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_API_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_API_JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_UI_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_UI_JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MultiLayer_RegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UILogin_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_LoginLogout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UI_DatabaseRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_Database_RegisterPatient.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,26 +46,25 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rutha/IdeaProjects/InterviewQuestion2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/FrameWorkFromScratchB14",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: UI register patient and Database delete">
-    <configuration name="Scenario: Happy Path register a patient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: UI_LoginLogout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIRegisterPatient.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_LoginLogout.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MichiganLakeInternship" />
-      <option name="NAME_FILTER" value="^Happy Path register a patient$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Happy Path register a patient$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Happy Path register a patient" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: UI_LoginLogout" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,15 +76,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Three-layer Test Create a Patient: create with API validate database" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: UI_RegisterPatient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MichiganLakeInternship" />
-      <option name="NAME_FILTER" value="^Three\-layer Test Create a Patient\: create with API validate database$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Three\-layer Test Create a Patient\: create with API validate database$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Three-layer Test Create a Patient: create with API validate database" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: UI_RegisterPatient" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +97,7 @@
     </configuration>
     <configuration name="Scenario: Two-layer Test Create a Patient: create with API validate database" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MultiLayer_RegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MichiganLakeInternship" />
@@ -111,7 +117,7 @@
     </configuration>
     <configuration name="Scenario: UI register patient and Database delete" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_DatabaseRegisterPatient.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_Database_RegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MichiganLakeInternship" />
@@ -157,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: UI register patient and Database delete" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient" />
+        <item itemvalue="Cucumber Java.Scenario: UI register patient and Database delete" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate database" />
-        <item itemvalue="Cucumber Java.Scenario: Three-layer Test Create a Patient: create with API validate database" />
+        <item itemvalue="Cucumber Java.Feature: UI_RegisterPatient" />
+        <item itemvalue="Cucumber Java.Feature: UI_LoginLogout" />
       </list>
     </recent_temporary>
   </component>

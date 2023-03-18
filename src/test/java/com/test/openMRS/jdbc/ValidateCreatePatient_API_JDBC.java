@@ -39,7 +39,7 @@ public class ValidateCreatePatient_API_JDBC {
     public void deletePatientTest(){
         createResultSet();
         try {
-            PreparedStatement p=con.prepareStatement("delete from patient_identifier where uuid="+RegisterPatientAPI.getPatientUUID());
+            PreparedStatement p=con.prepareStatement("delete from patient_identifier where uuid='"+RegisterPatientAPI.getPatientUUID()+"'");
             p.execute();
         } catch (Exception e) {
             System.out.println(e);
