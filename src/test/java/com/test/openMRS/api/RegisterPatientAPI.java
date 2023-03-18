@@ -33,7 +33,13 @@ public class RegisterPatientAPI {
     private String idType;
     private String locationID;
     private String patientID;
-    private int statusCode;
+    private Integer statusCode;
+
+    public static String getPatientUUID() {
+        return patientUUID;
+    }
+
+    public static String patientUUID;
     public void postPerson(String name, String lastname, String gender, String dob, String add1, String add2, String city, String state, String country, String zip){
         postPersonResponse=
         RestAssured.given()
@@ -52,8 +58,8 @@ public class RegisterPatientAPI {
         statusCode=postPersonResponse.getStatusCode();
     }
     public void validateStatusCode(Integer expected){
-        Integer actualStatusCode=statusCode;
-        Assert.assertEquals(expected,actualStatusCode);
+//        Integer actualStatusCode=statusCode;
+        Assert.assertEquals(expected,statusCode);
     }
     public void validateResponseInfoForPostPerson(String postedDate) throws ParseException {
         Map<String,Object>deserializedResponse=postPersonResponse.as(new TypeRef<Map<String,Object>>() {
@@ -115,6 +121,7 @@ public class RegisterPatientAPI {
     }
     public void postPatient () {
 
+        postPatientResponse=
         RestAssured.given()
                 .header("Authorization","Basic QWRtaW46QWRtaW4xMjM=")
                 .contentType(ContentType.JSON)
@@ -122,6 +129,11 @@ public class RegisterPatientAPI {
                 .body(PayloadUtils.postPatientPayload(personID,patientID,idType,locationID))
                 .when().post()
                 .then()
-                .statusCode(201);
+                .statusCode(201)
+                .extract().response();
+        Map<String,Object>patientInfoMap=postPatientResponse.as(new TypeRef<Map<String,Object>>() {
+        });
+        List<Map<String,Object>>patientIDList=(List<Map<String,Object>>)patientInfoMap.get("identifiers");
+        patientUUID=(String)patientIDList.get(0).get("uuid");
     }
 }
