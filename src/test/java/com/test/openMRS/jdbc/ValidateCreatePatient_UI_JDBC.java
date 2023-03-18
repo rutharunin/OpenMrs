@@ -40,7 +40,7 @@ public class ValidateCreatePatient_UI_JDBC {
     public void deletePatientTest(){
         createResultSet();
         try {
-            PreparedStatement p=con.prepareStatement("delete from patient_identifier where identifier="+FindPatientRecordPage.getPatientID());
+            PreparedStatement p=con.prepareStatement("delete from patient_identifier where identifier='"+FindPatientRecordPage.getPatientID()+"'");
             p.execute();
         } catch (Exception e) {
             System.out.println(e);
