@@ -18,4 +18,6 @@ Feature: User can register a patient
     And User validates the generated userID is displayed
     And User clicks the patient link then clicks delete, gives the reason 'test', and clicks confirm
 
-#    This is version with June
+    @smoke
+Scenario: test with jenkins
+  Then I print something
