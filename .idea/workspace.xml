@@ -63,7 +63,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Happy Path register a patient">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Scenario: Happy Path register a patient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" />
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate database" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate with UI" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person: create with API validate with UI" />
