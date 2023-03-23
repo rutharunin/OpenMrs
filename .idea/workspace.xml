@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="" />
+    <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/MyJenkinsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternshipOpenMrs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipOpenMrs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,14 +60,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/InternshipOpenMrs",
+    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/FrameWorkFromScratchB14",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Two-layer Test Create a Person: create with API validate with UI">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Scenario: Happy Path register a patient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" />
@@ -158,8 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person: create with API validate with UI" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person: create with API validate with UI" />
         <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate database" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate with UI" />
