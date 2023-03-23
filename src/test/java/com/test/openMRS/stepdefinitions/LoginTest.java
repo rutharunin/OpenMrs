@@ -42,7 +42,7 @@ public class LoginTest {
     }
     @Then("User clicks logout")
     public void user_clicks_logout() {
-        homePage.clickLogOut();
+        homePage.clickLogOut(driver);
     }
 
 //    @When("User enters valid username and invalid password {string}")
