@@ -83,7 +83,7 @@
             <version>3.0.0</version>
             <configuration>
                 <includes>
-                    <exclude>**/*Runner.java</exclude>
+                    <exclude>**/Runner.java</exclude>
                 </includes>
             </configuration>
         </plugin>
