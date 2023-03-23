@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_API_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_API_JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_UI_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/jdbc/ValidateCreatePatient_UI_JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MultiLayerRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MultiLayer_RegisterPatient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UILogin_logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_LoginLogout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UI_DatabaseRegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_Database_RegisterPatient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="007ec771-6d2b-4306-b55d-a6310c251f8b" />
+        <option name="url" value="https://github.com/rutharunin/InternshipOpenMrs.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,40 +56,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/FrameWorkFromScratchB14",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/rutha/IdeaProjects/InternshipOpenMrs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: UI_LoginLogout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_LoginLogout.feature" />
-      <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MichiganLakeInternship" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: UI_LoginLogout" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: UI_RegisterPatient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Happy Path register a patient">
+    <configuration name="Scenario: Happy Path register a patient" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MichiganLakeInternship" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: UI_RegisterPatient" />
+      <module name="InternshipOpenMrs" />
+      <option name="NAME_FILTER" value="^Happy Path register a patient$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Happy Path register a patient$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Happy Path register a patient" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +89,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MultiLayer_RegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MichiganLakeInternship" />
+      <module name="InternshipOpenMrs" />
       <option name="NAME_FILTER" value="^Two\-layer Test Create a Patient\: create with API validate database$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Two\-layer Test Create a Patient\: create with API validate database$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Two-layer Test Create a Patient: create with API validate database" />
@@ -115,15 +104,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: UI register patient and Database delete" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Two-layer Test Create a Patient: create with API validate with UI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UI_Database_RegisterPatient.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MultiLayer_RegisterPatient.feature" />
       <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MichiganLakeInternship" />
-      <option name="NAME_FILTER" value="^UI register patient and Database delete$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UI register patient and Database delete$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: UI register patient and Database delete" />
+      <module name="InternshipOpenMrs" />
+      <option name="NAME_FILTER" value="^Two\-layer Test Create a Patient\: create with API validate with UI$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Two\-layer Test Create a Patient\: create with API validate with UI$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Two-layer Test Create a Patient: create with API validate with UI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Two-layer Test Create a Person: create with API validate with UI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MultiLayer_RegisterPatient.feature" />
+      <option name="GLUE" value="com.test.openMRS.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="InternshipOpenMrs" />
+      <option name="NAME_FILTER" value="^Two\-layer Test Create a Person\: create with API validate with UI$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Two\-layer Test Create a Person\: create with API validate with UI$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Two-layer Test Create a Person: create with API validate with UI" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +145,7 @@
       </method>
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MichiganLakeInternship" />
+      <module name="InternshipOpenMrs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.openMRS.runners.*" />
@@ -150,24 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Happy Path register a patient" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: UI register patient and Database delete" />
         <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate database" />
-        <item itemvalue="Cucumber Java.Feature: UI_RegisterPatient" />
-        <item itemvalue="Cucumber Java.Feature: UI_LoginLogout" />
+        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Patient: create with API validate with UI" />
+        <item itemvalue="Cucumber Java.Scenario: Two-layer Test Create a Person: create with API validate with UI" />
       </list>
     </recent_temporary>
   </component>
