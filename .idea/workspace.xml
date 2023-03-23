@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/MyJenkinsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InternshipOpenMrs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InternshipOpenMrs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UI_RegisterPatient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/runners/Runner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
