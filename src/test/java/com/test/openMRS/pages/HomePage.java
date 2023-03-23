@@ -35,8 +35,6 @@ public class HomePage {
     }
     public void clickLogOut(WebDriver driver) {
         driver.navigate().refresh();
-//        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
-//        logOutButton=wait.until(ExpectedConditions.visibilityOf(logOutButton));
         logOutButton.click();
     }
     public void clickRegisterPatient(){
