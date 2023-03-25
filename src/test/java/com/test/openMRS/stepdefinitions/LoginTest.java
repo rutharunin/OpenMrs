@@ -43,6 +43,7 @@ public class LoginTest {
     @Then("User clicks logout")
     public void user_clicks_logout() {
         homePage.clickLogOut(driver);
+        Assert.assertTrue(false);
     }
 
 //    @When("User enters valid username and invalid password {string}")
