@@ -6,7 +6,7 @@ Feature: Multi-layer Test Create a Person-Patient
     When User sends POST request to create a person named 'Baks', lastname 'Aaabbb',gender 'M', birthdate '1997-10-02', address1 '5555 w LLLL', address2 'APT 207', cityVillage 'Heaven', stateProvince 'IL', country 'USA', postalCode '60000'
     Then Post person statue code is 201
 
-  @smoke
+  @smoke @regression
   Scenario: Two-layer Test Create a Person: create with API validate with UI
 
 #    UI TEST SECTION
@@ -24,7 +24,7 @@ Feature: Multi-layer Test Create a Person-Patient
     And User validates 'No matching records found' in the search result
     And User clicks logout from the page
 
-  @smoke
+  @smoke @regression
   Scenario: Two-layer Test Create a Patient: create with API validate with UI
 
 #    API TEST SECTION
@@ -53,7 +53,7 @@ Feature: Multi-layer Test Create a Person-Patient
     And User clicks on the name on the first row and clicks delete, enters the reason 'test', and clicks confirm
     And User clicks logout
 
-  @smoke @regression
+  @regression
   Scenario: Three-layer Test Create a Person: create with API validate with UI and database
 
 #    UI TEST SECTION
@@ -72,7 +72,7 @@ Feature: Multi-layer Test Create a Person-Patient
     Then User enters the uuid given from the API response and validates the uuid from API matches the uuid in the database
     And user delete the person and validates the person uuid is null and close the database connection
 
-  @smoke @regression
+  @regression
   Scenario: Two-layer Test Create a Patient: create with API validate database
 
 #    API TEST SECTION
