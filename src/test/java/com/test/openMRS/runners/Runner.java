@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features ="src/test/resources/features",
         glue="com/test/openMRS/stepdefinitions",
         dryRun = false,
-        plugin = {"pretty","html:target/uiReport.html","rerun:target/uiFailedTests.txt"}
+        plugin = {"pretty","json:target/cucumber-reports/Cucumber.json","html:target/uiReport.html","rerun:target/uiFailedTests.txt"}
+//        plugin = {"pretty","html:target/uiReport.html","rerun:target/uiFailedTests.txt"}
 
 )
 
