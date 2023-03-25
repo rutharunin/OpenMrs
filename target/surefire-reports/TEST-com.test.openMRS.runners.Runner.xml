@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.openMRS.runners.Runner" time="67.66" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.openMRS.runners.Runner" time="69.884" tests="17" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\rutha\.jdks\openjdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire10950212284642765654\surefirebooter-20230325041455091_3.jar C:\Windows\Temp\surefire10950212284642765654 2023-03-25T04-14-54_907-jvmRun1 surefire-20230325041455091_1tmp surefire_0-20230325041455091_2tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire13815469209819863335\surefirebooter-20230325054253318_3.jar C:\Windows\Temp\surefire13815469209819863335 2023-03-25T05-42-53_103-jvmRun1 surefire-20230325054253318_1tmp surefire_0-20230325054253318_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\rutha\IdeaProjects\InternshipOpenMrs\target\test-classes;C:\Users\rutha\IdeaProjects\InternshipOpenMrs\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.3\selenium-java-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.3\selenium-api-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.3\selenium-chrome-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.3\selenium-chromium-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.3\selenium-json-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.3\selenium-devtools-v104-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.3\selenium-devtools-v105-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.3\selenium-devtools-v106-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.3\selenium-devtools-v85-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.3\selenium-edge-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.3\selenium-firefox-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.3\selenium-ie-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.3\selenium-remote-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.3\selenium-http-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.3\selenium-safari-driver-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.3\selenium-support-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire10950212284642765654\surefirebooter-20230325041455091_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire13815469209819863335\surefirebooter-20230325054253318_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19+36-2238"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="Two-layer Test Create a Person: create with API validate with UI" classname="Multi-layer Test Create a Person-Patient" time="9.474">
+  <testcase name="Two-layer Test Create a Person: create with API validate with UI" classname="Multi-layer Test Create a Person-Patient" time="9.569">
     <system-out><![CDATA[
 Scenario: Two-layer Test Create a Person: create with API validate with UI                                                                                                                                                                    &amp#27;[90m# src/test/resources/features/MultiLayer_RegisterPatient.feature:9&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has valid API URL to post a person&amp#27;[0m                                                                                                                                                                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePerson.user_has_valid_api_url_to_post_a_person()&amp#27;[0m
@@ -81,17 +81,35 @@ Scenario: Two-layer Test Create a Person: create with API validate with UI      
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 36256
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 6820
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:14:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:42:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:14:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:42:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Mar 25, 2023 5:43:04 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
 ]]></system-err>
   </testcase>
-  <testcase name="Two-layer Test Create a Patient: create with API validate with UI" classname="Multi-layer Test Create a Person-Patient" time="8.226">
+  <testcase name="Two-layer Test Create a Patient: create with API validate with UI" classname="Multi-layer Test Create a Person-Patient" time="6.554">
     <system-out><![CDATA[
 Scenario: Two-layer Test Create a Patient: create with API validate with UI                                                                                                                                                                   &amp#27;[90m# src/test/resources/features/MultiLayer_RegisterPatient.feature:26&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has valid API URL to post a person&amp#27;[0m                                                                                                                                                                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePerson.user_has_valid_api_url_to_post_a_person()&amp#27;[0m
@@ -118,17 +136,17 @@ Scenario: Two-layer Test Create a Patient: create with API validate with UI     
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on the name on the first row and clicks delete, enters the reason &amp#27;[0m&amp#27;[32m&amp#27;[1m'test'&amp#27;[0m&amp#27;[32m, and clicks confirm&amp#27;[0m                                                                                                                                &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_API_UI.user_clicks_on_the_name_on_the_first_row_and_clicks_delete_enters_the_reason_and_clicks_confirm(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                                                                                                                                                                                                      &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 10092
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 11072
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Three-layer Test Create a Person: create with API validate with UI and database" classname="Multi-layer Test Create a Person-Patient" time="6.859">
+  <testcase name="Three-layer Test Create a Person: create with API validate with UI and database" classname="Multi-layer Test Create a Person-Patient" time="7.746">
     <system-out><![CDATA[
 Scenario: Three-layer Test Create a Person: create with API validate with UI and database                                                                                                                                                     &amp#27;[90m# src/test/resources/features/MultiLayer_RegisterPatient.feature:54&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has valid API URL to post a person&amp#27;[0m                                                                                                                                                                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePerson.user_has_valid_api_url_to_post_a_person()&amp#27;[0m
@@ -148,17 +166,17 @@ Scenario: Three-layer Test Create a Person: create with API validate with UI and
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser enters the uuid given from the API response and validates the uuid from API matches the uuid in the database&amp#27;[0m                                                                                                                      &amp#27;[90m# com.test.openMRS.stepdefinitions.ThreeLayerCreatePerson.user_enters_the_uuid_given_from_the_api_response_and_validates_the_uuid_from_api_matches_the_uuid_in_the_database()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser delete the person and validates the person uuid is null and close the database connection&amp#27;[0m                                                                                                                                          &amp#27;[90m# com.test.openMRS.stepdefinitions.ThreeLayerCreatePerson.user_delete_the_person_and_validates_the_person_uuid_is_null_and_close_the_database_connection()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 27667
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 9216
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Two-layer Test Create a Patient: create with API validate database" classname="Multi-layer Test Create a Person-Patient" time="5.99">
+  <testcase name="Two-layer Test Create a Patient: create with API validate database" classname="Multi-layer Test Create a Person-Patient" time="5.541">
     <system-out><![CDATA[
 Scenario: Two-layer Test Create a Patient: create with API validate database                                                                                                                                                                  &amp#27;[90m# src/test/resources/features/MultiLayer_RegisterPatient.feature:72&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has valid API URL to post a person&amp#27;[0m                                                                                                                                                                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePerson.user_has_valid_api_url_to_post_a_person()&amp#27;[0m
@@ -180,17 +198,47 @@ Scenario: Two-layer Test Create a Patient: create with API validate database    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes patient uuid in database and validates that it is null&amp#27;[0m                                                                                                                                                                     &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_API_Database.user_deletes_patient_uuid_in_database_and_validates_that_it_is_null()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser delete the person and validates the person uuid is null and close the database connection&amp#27;[0m                                                                                                                                          &amp#27;[90m# com.test.openMRS.stepdefinitions.ThreeLayerCreatePerson.user_delete_the_person_and_validates_the_person_uuid_is_null_and_close_the_database_connection()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 19253
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 5637
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="UI register patient and Database delete" classname="Two-layer User can register a patient" time="8.828">
+  <testcase name="UI register patient and Database delete" classname="Two-layer User can register a patient" time="13.215">
+    <error message="element not interactable&#10;  (Session info: chrome=111.0.5563.111)&#10;Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [343c4dc5832073cc54005cc803a5cafe, sendKeysToElement {id=ea8ebbaa-7b68-466b-b48a-ef0741c741d7, value=[Ljava.lang.CharSequence;@36857d32}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:63672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63672/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (343c4dc5832073cc54005cc803a5cafe)] -&gt; xpath: //input[@name=&apos;birthdateDay&apos;]]&#10;Session ID: 343c4dc5832073cc54005cc803a5cafe" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=111.0.5563.111)
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [343c4dc5832073cc54005cc803a5cafe, sendKeysToElement {id=ea8ebbaa-7b68-466b-b48a-ef0741c741d7, value=[Ljava.lang.CharSequence;@36857d32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:63672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63672/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (343c4dc5832073cc54005cc803a5cafe)] -> xpath: //input[@name='birthdateDay']]
+Session ID: 343c4dc5832073cc54005cc803a5cafe
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at com.test.openMRS.pages.RegisterPatientPage.fillOutBirthdate(RegisterPatientPage.java:69)
+	at com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_birthdate(RegisterAPatient.java:34)
+	at ✽.User enters birthdate 1, 'January', 2000(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_Database_RegisterPatient.feature:13)
+]]></error>
     <system-out><![CDATA[
 Scenario: UI register patient and Database delete                                             &amp#27;[90m# src/test/resources/features/UI_Database_RegisterPatient.feature:2&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to the wabpage and user validates the url&amp#27;[0m                              &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_navigates_to_the_wabpage_and_user_validates_the_url()&amp#27;[0m
@@ -202,28 +250,57 @@ Scenario: UI register patient and Database delete                               
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Register a Patient and validates header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Register a patient'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_clicks_register_a_patient_and_validates_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters name &amp#27;[0m&amp#27;[32m&amp#27;[1m'bobobo'&amp#27;[0m&amp#27;[32m and last name &amp#27;[0m&amp#27;[32m&amp#27;[1m'bebebe'&amp#27;[0m                                        &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_name_and_last_name(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the gender&amp#27;[0m                                                                  &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_the_gender()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters birthdate &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m'January'&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m                                                &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_birthdate(java.lang.Integer,java.lang.String,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters address &amp#27;[0m&amp#27;[32m&amp#27;[1m2222&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m'Chicago AVE'&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m'Chicago'&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m'IL'&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m'USA'&amp#27;[0m&amp#27;[32m,&amp#27;[0m&amp#27;[32m&amp#27;[1m60000&amp#27;[0m                    &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_address(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters phone number &amp#27;[0m&amp#27;[32m&amp#27;[1m'7777777777'&amp#27;[0m&amp#27;[32m and click confirm two times&amp#27;[0m                       &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_phone_number_and_click_confirm_two_times(java.lang.String)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser validate the title &amp#27;[0m&amp#27;[32m&amp#27;[1m'OpenMRS Electronic Medical Record'&amp#27;[0m                            &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_validate_the_title(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks home button and clicks Find Patient Record&amp#27;[0m                                  &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_clicks_home_button_and_clicks_find_patient_record()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the generated userID is displayed&amp#27;[0m                                        &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_validates_the_generated_user_id_is_displayed()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates that the patient ID in UI matches patient ID in database&amp#27;[0m                 &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_validates_that_the_patient_id_in_ui_matches_patient_id_in_database()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser deletes patient ID in database and close database connection&amp#27;[0m                       &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_deletes_patient_id_in_database_and_close_database_connection()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser refreshes the UI page and search for the patient using patient ID&amp#27;[0m                  &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_refreshes_the_ui_page_and_search_for_the_patient_using_patient_id()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validate message &amp#27;[0m&amp#27;[32m&amp#27;[1m'No Data Available'&amp#27;[0m                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_validate_message(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mUser enters birthdate &amp#27;[0m&amp#27;[31m&amp#27;[1m1&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m'January'&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m2000&amp#27;[0m                                                &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_birthdate(java.lang.Integer,java.lang.String,java.lang.Integer)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.111)
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [343c4dc5832073cc54005cc803a5cafe, sendKeysToElement {id=ea8ebbaa-7b68-466b-b48a-ef0741c741d7, value=[Ljava.lang.CharSequence;@36857d32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:63672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63672/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (343c4dc5832073cc54005cc803a5cafe)] -> xpath: //input[@name='birthdateDay']]
+Session ID: 343c4dc5832073cc54005cc803a5cafe
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at com.test.openMRS.pages.RegisterPatientPage.fillOutBirthdate(RegisterPatientPage.java:69)
+	at com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_birthdate(RegisterAPatient.java:34)
+	at ✽.User enters birthdate 1, 'January', 2000(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_Database_RegisterPatient.feature:13)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser enters address &amp#27;[0m&amp#27;[36m&amp#27;[1m2222&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1m'Chicago AVE'&amp#27;[0m&amp#27;[36m, &amp#27;[0m&amp#27;[36m&amp#27;[1m'Chicago'&amp#27;[0m&amp#27;[36m, &amp#27;[0m&amp#27;[36m&amp#27;[1m'IL'&amp#27;[0m&amp#27;[36m, &amp#27;[0m&amp#27;[36m&amp#27;[1m'USA'&amp#27;[0m&amp#27;[36m,&amp#27;[0m&amp#27;[36m&amp#27;[1m60000&amp#27;[0m                    &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_address(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser enters phone number &amp#27;[0m&amp#27;[36m&amp#27;[1m'7777777777'&amp#27;[0m&amp#27;[36m and click confirm two times&amp#27;[0m                       &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_enters_phone_number_and_click_confirm_two_times(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser validate the title &amp#27;[0m&amp#27;[36m&amp#27;[1m'OpenMRS Electronic Medical Record'&amp#27;[0m                            &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_validate_the_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks home button and clicks Find Patient Record&amp#27;[0m                                  &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_clicks_home_button_and_clicks_find_patient_record()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser validates the generated userID is displayed&amp#27;[0m                                        &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_validates_the_generated_user_id_is_displayed()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser validates that the patient ID in UI matches patient ID in database&amp#27;[0m                 &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_validates_that_the_patient_id_in_ui_matches_patient_id_in_database()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser deletes patient ID in database and close database connection&amp#27;[0m                       &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_deletes_patient_id_in_database_and_close_database_connection()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser refreshes the UI page and search for the patient using patient ID&amp#27;[0m                  &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_refreshes_the_ui_page_and_search_for_the_patient_using_patient_id()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser validate message &amp#27;[0m&amp#27;[36m&amp#27;[1m'No Data Available'&amp#27;[0m                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.TwoLayerCreatePatient_UI_Database_UI.user_validate_message(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 30808
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 5735
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Happy Path Login #1" classname="As an admin, user should be able to login and logout" time="2.682">
+  <testcase name="Happy Path Login #1" classname="As an admin, user should be able to login and logout" time="3.368">
     <system-out><![CDATA[
 Scenario Outline: Happy Path Login                             &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:13&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m           &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -233,17 +310,17 @@ Scenario Outline: Happy Path Login                             &amp#27;[90m# src
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Inpatient Ward'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_validates_the_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                       &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 33764
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 23806
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Happy Path Login #2" classname="As an admin, user should be able to login and logout" time="3.23">
+  <testcase name="Happy Path Login #2" classname="As an admin, user should be able to login and logout" time="3.011">
     <system-out><![CDATA[
 Scenario Outline: Happy Path Login                             &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:14&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m           &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -253,17 +330,17 @@ Scenario Outline: Happy Path Login                             &amp#27;[90m# src
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Isolation Ward'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_validates_the_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                       &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 33514
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 31971
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:39 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Happy Path Login #3" classname="As an admin, user should be able to login and logout" time="4.601">
+  <testcase name="Happy Path Login #3" classname="As an admin, user should be able to login and logout" time="2.633">
     <system-out><![CDATA[
 Scenario Outline: Happy Path Login                         &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:15&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m       &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -273,17 +350,17 @@ Scenario Outline: Happy Path Login                         &amp#27;[90m# src/tes
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Laboratory'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_validates_the_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                   &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 20191
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 7192
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Happy Path Login #4" classname="As an admin, user should be able to login and logout" time="2.874">
+  <testcase name="Happy Path Login #4" classname="As an admin, user should be able to login and logout" time="3.02">
     <system-out><![CDATA[
 Scenario Outline: Happy Path Login                                &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:16&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m              &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -293,17 +370,17 @@ Scenario Outline: Happy Path Login                                &amp#27;[90m# 
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Outpatient Clinic'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_validates_the_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                          &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 4866
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 32273
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Happy Path Login #5" classname="As an admin, user should be able to login and logout" time="2.771">
+  <testcase name="Happy Path Login #5" classname="As an admin, user should be able to login and logout" time="3.631">
     <system-out><![CDATA[
 Scenario Outline: Happy Path Login                       &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:17&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m     &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -313,17 +390,17 @@ Scenario Outline: Happy Path Login                       &amp#27;[90m# src/test/
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Pharmacy'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_validates_the_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                 &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 15654
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 44837
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Happy Path Login #6" classname="As an admin, user should be able to login and logout" time="2.853">
+  <testcase name="Happy Path Login #6" classname="As an admin, user should be able to login and logout" time="2.636">
     <system-out><![CDATA[
 Scenario Outline: Happy Path Login                                &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:18&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m              &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -333,37 +410,37 @@ Scenario Outline: Happy Path Login                                &amp#27;[90m# 
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the header contains text &amp#27;[0m&amp#27;[32m&amp#27;[1m'Registration Desk'&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_validates_the_header_contains_text(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks logout&amp#27;[0m                                          &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 29654
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 10198
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="User should not be able to login with invalid both username and password" classname="As an admin, user should be able to login and logout" time="0.003">
+  <testcase name="User should not be able to login with invalid both username and password" classname="As an admin, user should be able to login and logout" time="0.007">
     <system-out><![CDATA[
 Scenario: User should not be able to login with invalid both username and password &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:32&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="User should not be able to login with valid username but no password" classname="As an admin, user should be able to login and logout" time="0.004">
+  <testcase name="User should not be able to login with valid username but no password" classname="As an admin, user should be able to login and logout" time="0">
     <system-out><![CDATA[
 Scenario: User should not be able to login with valid username but no password &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:33&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="User should not be able to login with no username but valid password" classname="As an admin, user should be able to login and logout" time="0.002">
+  <testcase name="User should not be able to login with no username but valid password" classname="As an admin, user should be able to login and logout" time="0.01">
     <system-out><![CDATA[
 Scenario: User should not be able to login with no username but valid password &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:34&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="User should not be able to login with no both username and password" classname="As an admin, user should be able to login and logout" time="0.003">
+  <testcase name="User should not be able to login with no both username and password" classname="As an admin, user should be able to login and logout" time="0">
     <system-out><![CDATA[
 Scenario: User should not be able to login with no both username and password &amp#27;[90m# src/test/resources/features/UI_LoginLogout.feature:35&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Happy Path register a patient" classname="User can register a patient" time="6.577">
+  <testcase name="Happy Path register a patient" classname="User can register a patient" time="6.342">
     <system-out><![CDATA[
 Scenario: Happy Path register a patient                                                            &amp#27;[90m# src/test/resources/features/UI_RegisterPatient.feature:4&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid username and valid password&amp#27;[0m                                               &amp#27;[90m# com.test.openMRS.stepdefinitions.LoginTest.user_enters_valid_username_and_valid_password()&amp#27;[0m
@@ -382,30 +459,30 @@ Scenario: Happy Path register a patient                                         
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser validates the generated userID is displayed&amp#27;[0m                                             &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_validates_the_generated_user_id_is_displayed()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks the patient link then clicks delete, gives the reason &amp#27;[0m&amp#27;[32m&amp#27;[1m'test'&amp#27;[0m&amp#27;[32m, and clicks confirm&amp#27;[0m &amp#27;[90m# com.test.openMRS.stepdefinitions.RegisterAPatient.user_clicks_the_patient_link_then_clicks_delete_gives_the_reason_and_clicks_confirm(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 43847
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 40421
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:15:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:43:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:15:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:43:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="test with jenkins" classname="User can register a patient" time="1.798">
+  <testcase name="test with jenkins" classname="User can register a patient" time="1.851">
     <system-out><![CDATA[
 @smoke
 Scenario: test with jenkins &amp#27;[90m# src/test/resources/features/UI_RegisterPatient.feature:22&amp#27;[0m
 Hello World
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI print something&amp#27;[0m    &amp#27;[90m# com.test.openMRS.stepdefinitions.MyJenkinsTest.i_print_something()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 18384
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 47457
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 25, 2023 4:16:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2023 5:44:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 111
-Mar 25, 2023 4:16:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 25, 2023 5:44:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
