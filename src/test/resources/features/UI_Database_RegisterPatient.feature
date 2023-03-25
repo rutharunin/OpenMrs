@@ -1,4 +1,5 @@
 Feature: Two-layer User can register a patient
+  @regression
   Scenario: UI register patient and Database delete
 #    UI TEST SECTION
     Given User navigates to the wabpage and user validates the url
