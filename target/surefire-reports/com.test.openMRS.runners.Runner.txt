@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.test.openMRS.runners.Runner
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.66 s - in com.test.openMRS.runners.Runner
