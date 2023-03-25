@@ -43,23 +43,5 @@ public class LoginTest {
     @Then("User clicks logout")
     public void user_clicks_logout() {
         homePage.clickLogOut(driver);
-        Assert.assertTrue(false);
     }
-
-//    @When("User enters valid username and invalid password {string}")
-//    public void user_enters_valid_username_and_invalid_password(String string) {
-//
-//        loginPage.login(ConfigReader.readProperty("username"), ConfigReader.readProperty("invalidPassword"));
-//    }
-//
-//    @When("User chooses a location {string} and clicks the login button")
-//    public void user_chooses_a_location_and_clicks_the_login_button(String locate) {
-//        loginPage.chooseLocation(locate);
-//    }
-//
-//    @Then("User validates the error message")
-//    public void user_validates_the_error_message() {
-//        Assert.assertEquals(loginPage.validateErrorMessage().contains());
-//    }
-
 }

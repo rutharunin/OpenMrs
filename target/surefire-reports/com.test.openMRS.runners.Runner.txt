@@ -1,4 +1,60 @@
 -------------------------------------------------------------------------------
 Test set: com.test.openMRS.runners.Runner
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 75.794 s - in com.test.openMRS.runners.Runner
+Tests run: 17, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 76.667 s <<< FAILURE! - in com.test.openMRS.runners.Runner
+Multi-layer Test Create a Person-Patient.Two-layer Test Create a Patient: create with API validate with UI  Time elapsed: 7.23 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/MultiLayer_RegisterPatient.feature:52)
+
+As an admin, user should be able to login and logout.Happy Path Login #1  Time elapsed: 3.777 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_LoginLogout.feature:10)
+
+As an admin, user should be able to login and logout.Happy Path Login #2  Time elapsed: 3.466 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_LoginLogout.feature:10)
+
+As an admin, user should be able to login and logout.Happy Path Login #3  Time elapsed: 3.856 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_LoginLogout.feature:10)
+
+As an admin, user should be able to login and logout.Happy Path Login #4  Time elapsed: 3.738 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_LoginLogout.feature:10)
+
+As an admin, user should be able to login and logout.Happy Path Login #5  Time elapsed: 3.551 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_LoginLogout.feature:10)
+
+As an admin, user should be able to login and logout.Happy Path Login #6  Time elapsed: 4.294 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.test.openMRS.stepdefinitions.LoginTest.user_clicks_logout(LoginTest.java:46)
+	at ✽.User clicks logout(file:///C:/Users/rutha/IdeaProjects/InternshipOpenMrs/src/test/resources/features/UI_LoginLogout.feature:10)
+

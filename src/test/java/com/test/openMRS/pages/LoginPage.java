@@ -41,7 +41,7 @@ public class LoginPage {
     public void clickLoginButton() {
         loginButton.click();
     }
-    public String validateErrorMessage() {
-        return BrowserUtils.getText(errorMessage).trim();
-    }
+//    public String validateErrorMessage() {
+//        return BrowserUtils.getText(errorMessage).trim();
+//    }
 }
