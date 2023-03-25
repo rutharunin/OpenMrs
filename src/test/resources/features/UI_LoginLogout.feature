@@ -1,6 +1,8 @@
+@regression
 Feature: As an admin, user should be able to login and logout
 Given User navigates to the wabpage and user validates the url
   Background:
+    @smoke
   Scenario Outline: Happy Path Login
     When User enters valid username and valid password
     And User chooses location '<location>'

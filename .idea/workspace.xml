@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/openMRS/stepdefinitions/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MichiganLakeInternship-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MichiganLakeInternship-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.openMRS.runners.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.openMRS.runners.Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.openMRS.runners.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.openMRS.runners.Runner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/stepdefinitions/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/openMRS/stepdefinitions/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/uiFailedTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/uiFailedTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/uiReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/uiReport.html" afterDir="false" />
-    </list>
+    <list default="true" id="73853560-26cd-4043-be29-27a37cee7828" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

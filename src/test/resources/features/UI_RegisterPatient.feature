@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: User can register a patient
     Given User navigates to the wabpage and user validates the url
   Background:
